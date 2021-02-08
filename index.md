@@ -3,6 +3,8 @@
 
 ## [DSP Illustrations](https://dspillustrations.com/pages/index.html)
 
+Downloadable Jupyter Notebooks "illustrating" various concepts. (Python)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/RajavardhanT/RajavardhanT.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
