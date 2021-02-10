@@ -11,8 +11,8 @@ Downloadable Jupyter Notebooks "illustrating" various concepts. (Python)
 # Electromagnetics
 
 * Links Pages
- + https://en.wikipedia.org/wiki/Refractive_index
- + https://en.wikipedia.org/wiki/Clausius%E2%80%93Mossotti_relation
+ + (https://en.wikipedia.org/wiki/Refractive_index)
+ + (https://en.wikipedia.org/wiki/Clausius%E2%80%93Mossotti_relation)
  + https://nationalmaglab.org/education/magnet-academy/
  + https://en.wikipedia.org/wiki/Electromotive_force<2019-12-30 Mon>
  + https://en.wikipedia.org/wiki/Eddy_current <2019-12-31 Tue>
