@@ -3,7 +3,8 @@
 
 ## Electromagnetics illustrations using Ansys HFSS
 +  [Reciprocity](https://www.linkedin.com/feed/update/urn:li:activity:7090251774510452736?utm_source=share&utm_medium=member_desktop)
-+  Duality : https://www.linkedin.com/posts/rajavardhan-talashila-ph-d-37800a76_the-game-of-role-reversal-between-e-and-h-activity-7087313673643311104-bFX-?utm_source=share&utm_medium=member_desktop
++  [Duality](https://www.linkedin.com/feed/update/urn:li:activity:7087301378447986688?utm_source=share&utm_medium=member_desktop)
++  [Enhanced Bounce Diagram](https://www.linkedin.com/feed/update/urn:li:activity:7088114458455113728?utm_source=share&utm_medium=member_desktop)
 
 
 
