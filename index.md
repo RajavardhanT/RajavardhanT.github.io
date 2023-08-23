@@ -1,37 +1,17 @@
-
+```markdown
 # LinkedIn  Posts
 
 ## Electromagnetics illustrations using Ansys HFSS
 +  [Reciprocity](https://www.linkedin.com/feed/update/urn:li:activity:7090251774510452736?utm_source=share&utm_medium=member_desktop)
 +  [Duality](https://www.linkedin.com/feed/update/urn:li:activity:7087301378447986688?utm_source=share&utm_medium=member_desktop)
 +  [Enhanced Bounce Diagram](https://www.linkedin.com/feed/update/urn:li:activity:7088114458455113728?utm_source=share&utm_medium=member_desktop)
-
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
++  [Clarinet as a Horn Antenna](https://www.linkedin.com/feed/update/urn:li:activity:7073731131421970432?utm_source=share&utm_medium=member_desktop)
++  [Slide Screw Tuner working principle](https://www.linkedin.com/feed/update/urn:li:activity:7072264357472063488?utm_source=share&utm_medium=member_desktop)
++  [Resonance Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7069214665616089088?utm_source=share&utm_medium=member_desktop)
++  [Dual Junction Circulator](https://www.linkedin.com/feed/update/urn:li:activity:7067981858117988352?utm_source=share&utm_medium=member_desktop)
++  [Microwave Testbench](https://www.linkedin.com/feed/update/urn:li:activity:7059154495213109249?utm_source=share&utm_medium=member_desktop)
++  [Direct Reading Frequency Meter](https://www.linkedin.com/feed/update/urn:li:activity:7058814767045476352?utm_source=share&utm_medium=member_desktop)
++  [Edge Guided Mode Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054486575467941888?utm_source=share&utm_medium=member_desktop)
++  [Faraday Rotation Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054131122363895808?utm_source=share&utm_medium=member_desktop)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RajavardhanT/RajavardhanT.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
