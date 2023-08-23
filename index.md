@@ -1,4 +1,4 @@
-```markdown
+
 # LinkedIn  Posts
 
 ## Electromagnetics illustrations using Ansys HFSS
@@ -13,5 +13,8 @@
 +  [Direct Reading Frequency Meter](https://www.linkedin.com/feed/update/urn:li:activity:7058814767045476352?utm_source=share&utm_medium=member_desktop)
 +  [Edge Guided Mode Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054486575467941888?utm_source=share&utm_medium=member_desktop)
 +  [Faraday Rotation Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054131122363895808?utm_source=share&utm_medium=member_desktop)
-```
+
+## Writeups relevant to Signal Integrity
++ [Djorjovic-Sarkar Model](https://www.linkedin.com/feed/update/urn:li:activity:6957530165891477504?utm_source=share&utm_medium=member_desktop)
++ [Debye Model](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632?utm_source=share&utm_medium=member_desktop)
 
