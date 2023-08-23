@@ -1,6 +1,8 @@
 
 # LinkedIn  Posts
 
+![Summary](LinkedIn_Posts_Summary.png)
+
 ## Electromagnetics illustrations using Ansys HFSS
 +  [Reciprocity](https://www.linkedin.com/feed/update/urn:li:activity:7090251774510452736?utm_source=share&utm_medium=member_desktop)
 +  [Duality](https://www.linkedin.com/feed/update/urn:li:activity:7087301378447986688?utm_source=share&utm_medium=member_desktop)
@@ -15,6 +17,6 @@
 +  [Faraday Rotation Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054131122363895808?utm_source=share&utm_medium=member_desktop)
 
 ## Writeups relevant to Signal Integrity
-+ [Djorjovic-Sarkar Model](https://www.linkedin.com/feed/update/urn:li:activity:6957530165891477504?utm_source=share&utm_medium=member_desktop)
-+ [Debye Model](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632?utm_source=share&utm_medium=member_desktop)
++ [Djorjovic-Sarkar Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6957530165891477504?utm_source=share&utm_medium=member_desktop)
++ [Debye Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632?utm_source=share&utm_medium=member_desktop)
 
