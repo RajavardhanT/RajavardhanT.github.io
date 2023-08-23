@@ -1,9 +1,11 @@
 
 # LinkedIn  Posts
 
-![Summary](LinkedIn_Posts_Summary.png)
+
 
 ## Electromagnetics illustrations using Ansys HFSS
+![Summary](LinkedIn_Posts_Summary.png)
+
 +  [Reciprocity](https://www.linkedin.com/feed/update/urn:li:activity:7090251774510452736?utm_source=share&utm_medium=member_desktop)
 +  [Duality](https://www.linkedin.com/feed/update/urn:li:activity:7087301378447986688?utm_source=share&utm_medium=member_desktop)
 +  [Enhanced Bounce Diagram](https://www.linkedin.com/feed/update/urn:li:activity:7088114458455113728?utm_source=share&utm_medium=member_desktop)
@@ -20,3 +22,4 @@
 + [Djorjovic-Sarkar Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6957530165891477504?utm_source=share&utm_medium=member_desktop)
 + [Debye Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632?utm_source=share&utm_medium=member_desktop)
 
+<object data="S-Param_Primer_RT.pdf" width="1000" height="1000" type='application/pdf'></object>
