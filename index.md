@@ -32,3 +32,6 @@
 ![TA_Certificate](TA_2021.jpg)
 ![TA_Certificate](TA_2020.jpg)
 
+## Courses done through NPTEL
+![NPTEL_Course](SDR_NPTEL.jpg)
+
