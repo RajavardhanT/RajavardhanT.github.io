@@ -27,3 +27,7 @@
 ![DS](DS_Model_RT.png)
 ![S-Param](S-Param_Primer_RT.png)
 
+
+## Teaching Assistant for NPTEL
+![TA_Certificate](TA_Certificate.jpg)
+
