@@ -29,5 +29,6 @@
 
 
 ## Teaching Assistant for NPTEL
-![TA_Certificate](TA_Certificate.jpg)
+![TA_Certificate](TA_2021.jpg)
+![TA_Certificate](TA_2020.jpg)
 
