@@ -33,9 +33,9 @@
 
 ## Masters Project : IITMSAT
 ### Effect of Attitude on the communication aspects
-The antenna radiation patterns for the Tx and Rx on the IITMSAT are analyzed along with the attitude dynamics.
+* The antenna radiation patterns for the Tx and Rx on the IITMSAT are analyzed along with the attitude dynamics.
 ![IITMSAT1](IITMSAT1.jpg)
-The effect LHCP / RHCP on the overall link dynamics for a LEO satellite moving through the field of view of a ground station at Chennai are analyzed.
+* The effect LHCP / RHCP on the overall link dynamics for a LEO satellite moving through the field of view of a ground station at Chennai are analyzed.
 ![IITMSAT2](IITMSAT2.jpg)
 
 ## Pyramidal Horn Antenna : Multipole Analysis
