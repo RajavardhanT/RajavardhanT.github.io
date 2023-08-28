@@ -30,6 +30,9 @@
 ## NPTEL_Certifications
 ![NPTEL_Course](SDR_NPTEL.jpg)
 
+## Bandpass Filter for 5G
+* Designed, Fabricated and tested a bandpass filter with center frequency 3.5 GHz when working with the 5G Testbed at IIT Madras. 
+![5G_Filter](5G_Filter.jpg)
 
 ## Masters Project : IITMSAT
 ### Effect of Attitude on the communication aspects
