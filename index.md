@@ -36,14 +36,23 @@
 
 ## Masters Project : IITMSAT
 ### Effect of Attitude on the communication aspects
-* The open access journal publication is at https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12402
+* The open access journal publication is [Engineering Reports](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12402)
 * The antenna radiation patterns for the Tx and Rx on the IITMSAT are analyzed along with the attitude dynamics.
 ![IITMSAT1](IITMSAT1.jpg)
 * The effect LHCP / RHCP on the overall link dynamics for a LEO satellite moving through the field of view of a ground station at Chennai are analyzed.
 ![IITMSAT2](IITMSAT2.jpg)
+
+
+## PhD work
+* Related to Multipole Expansion of EM fields
+![SH](SH.jpg)
 
 ## Pyramidal Horn Antenna : Multipole Analysis
 ![Horn1](Horn1.jpg)
 ![Horn2](Horn2.jpg)
 ![Horn3](Horn3.jpg)
 ![Horn4](Horn4.jpg)
+
+## Dyanmics of Charge carriers 
+* Montecarlo simulation of charge carriers in optically excited direct band-gap semiconductors
+![Monte](Particle_Dynamics.jpg)
