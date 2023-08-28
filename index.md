@@ -1,8 +1,3 @@
-
-# LinkedIn  Posts
-
-
-
 ## Electromagnetics illustrations using Ansys HFSS
 ![Summary](LinkedIn_Posts_Summary.png)
 
@@ -36,8 +31,15 @@
 ![NPTEL_Course](SDR_NPTEL.jpg)
 
 
-## Masters Project : IITMSAT : Effect of Attitude on the communication aspects
+## Masters Project : IITMSAT
+### Effect of Attitude on the communication aspects
+The antenna radiation patterns for the Tx and Rx on the IITMSAT are analyzed along with the attitude dynamics.
 ![IITMSAT1](IITMSAT1.jpg)
+The effect LHCP / RHCP on the overall link dynamics for a LEO satellite moving through the field of view of a ground station at Chennai are analyzed.
 ![IITMSAT2](IITMSAT2.jpg)
 
 ## Pyramidal Horn Antenna : Multipole Analysis
+![Horn1](Horn1.jpg)
+![Horn2](Horn2.jpg)
+![Horn3](Horn3.jpg)
+![Horn4](Horn4.jpg)
