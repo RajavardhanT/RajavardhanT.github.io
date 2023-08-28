@@ -56,3 +56,6 @@
 ## Dyanmics of Charge carriers 
 * Montecarlo simulation of charge carriers in optically excited direct band-gap semiconductors
 ![Monte](Particle_Dynamics.jpg)
+
+# Resume
+<object data="{{ RT_Resume_CU.pdf }}" width="1000" height="1000" type='application/pdf'/>
