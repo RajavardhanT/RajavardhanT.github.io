@@ -1,8 +1,3 @@
-
-# LinkedIn  Posts
-
-
-
 ## Electromagnetics illustrations using Ansys HFSS
 ![Summary](LinkedIn_Posts_Summary.png)
 
@@ -35,3 +30,32 @@
 ## NPTEL_Certifications
 ![NPTEL_Course](SDR_NPTEL.jpg)
 
+## Bandpass Filter for 5G
+* Designed, Fabricated and tested a bandpass filter with center frequency 3.5 GHz when working with the 5G Testbed at IIT Madras. 
+![5G_Filter](5G_Filter.jpg)
+
+## Masters Project : IITMSAT
+### Effect of Attitude on the communication aspects
+* The open access journal publication is [Engineering Reports](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12402)
+* The antenna radiation patterns for the Tx and Rx on the IITMSAT are analyzed along with the attitude dynamics.
+![IITMSAT1](IITMSAT1.jpg)
+* The effect LHCP / RHCP on the overall link dynamics for a LEO satellite moving through the field of view of a ground station at Chennai are analyzed.
+![IITMSAT2](IITMSAT2.jpg)
+
+
+## PhD work
+* Related to Multipole Expansion of EM fields
+![SH](SH.jpg)
+
+## Pyramidal Horn Antenna : Multipole Analysis
+![Horn1](Horn1.jpg)
+![Horn2](Horn2.jpg)
+![Horn3](Horn3.jpg)
+![Horn4](Horn4.jpg)
+
+## Dyanmics of Charge carriers 
+* Montecarlo simulation of charge carriers in optically excited direct band-gap semiconductors
+![Monte](Particle_Dynamics.jpg)
+
+# Resume
+<object data="{{ RT_Resume_CU.pdf }}" width="1000" height="1000" type='application/pdf'/>
