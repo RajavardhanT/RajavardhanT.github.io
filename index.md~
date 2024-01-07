@@ -57,5 +57,12 @@
 * Montecarlo simulation of charge carriers in optically excited direct band-gap semiconductors
 ![Monte](Particle_Dynamics.jpg)
 
-# Resume
-<object data="{{ RT_Resume_CU.pdf }}" width="1000" height="1000" type='application/pdf'/>
+# Publications
+Journal Articles
+
+1. Talashila, R., & Ramachandran, H. (2021). Effect of polarization on the link dynamics of a spinning low-earth orbits satellite aligned with geomagnetic field. Engineering Reports
+[Journal 1](https://onlinelibrary.wiley.com/doi/pdf/10.1002/eng2.12402)
+
+2. Talashila, R., & Ramachandran, H. (2020). Multipole Expansion of Radiation From Patch Antenna Using Quasi-Static Surface Currents. IEEE Antennas and Wireless Propagation Letters, 19(12), 2136-2140. [Journal 2](https://ieeexplore.ieee.org/document/9200656/)
+
+3. Talashila, R., & Ramachandran, H. (2019). Determination of Far Fields of Wire Antennas on a PEC Sphere Using Spherical Harmonic Expansion. IEEE Antennas and Wireless Propagation Letters, 18(4),646-650. [Journal 3](https://ieeexplore.ieee.org/document/8644039)
