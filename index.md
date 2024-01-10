@@ -18,17 +18,19 @@
 + [Debye Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632?utm_source=share&utm_medium=member_desktop)
 + [A primer on Generalized, Normalized, Power and Active S-Parameters](https://www.linkedin.com/feed/update/urn:li:activity:6928332906566225920?utm_source=share&utm_medium=member_desktop)
 
+## Digital Beamforming System  (Work at Ansys)
+* Full system Simulation (Bits to Bits)
+* Used SystemVue + Ansys HFSS + AGI-STK
+* Real RF component characteristics included
+* The flight dynamics are implemented in STK and linked to SystemVue
+* Installed array patterns from HFSS are included in SystemVue
+* Time wise tracking of the Tx / Rx are done with bidirectional link between SystemVue and STK
+![DBF](DBF.jpg)
+
+
 ![Bounce](Enhanced_Bounce.png)
 ![DS](DS_Model_RT.png)
 ![S-Param](S-Param_Primer_RT.png)
-
-
-## Teaching Assistant for NPTEL (Two times)
-![TA_Certificate](TA_2021.jpg)
-![TA_Certificate](TA_2020.jpg)
-
-## NPTEL_Certifications
-![NPTEL_Course](SDR_NPTEL.jpg)
 
 ## Bandpass Filter for 5G
 * Designed, Fabricated and tested a bandpass filter with center frequency 3.5 GHz when working with the 5G Testbed at IIT Madras. 
@@ -82,3 +84,13 @@ Journal Articles
 2. Talashila, R., & Ramachandran, H. (2020). Multipole Expansion of Radiation From Patch Antenna Using Quasi-Static Surface Currents. IEEE Antennas and Wireless Propagation Letters, 19(12), 2136-2140. [Journal 2](https://ieeexplore.ieee.org/document/9200656/)
 
 3. Talashila, R., & Ramachandran, H. (2019). Determination of Far Fields of Wire Antennas on a PEC Sphere Using Spherical Harmonic Expansion. IEEE Antennas and Wireless Propagation Letters, 18(4),646-650. [Journal 3](https://ieeexplore.ieee.org/document/8644039)
+
+
+
+
+## Teaching Assistant for NPTEL (Two times)
+![TA_Certificate](TA_2021.jpg)
+![TA_Certificate](TA_2020.jpg)
+
+## NPTEL_Certifications
+![NPTEL_Course](SDR_NPTEL.jpg)

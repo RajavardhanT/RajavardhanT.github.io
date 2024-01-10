@@ -63,9 +63,15 @@
 ![Horn3](Horn3.jpg)
 ![Horn4](Horn4.jpg)
 
+## Understanding the bandstructure of GaAs
+![GaAs_1](GaAs_1.jpg)
+![GaAs_2](GaAs_2.jpg)
+
 ## Dyanmics of Charge carriers 
 * Montecarlo simulation of charge carriers in optically excited direct band-gap semiconductors
 ![Monte](Particle_Dynamics.jpg)
+
+![Monte_2](Particle_Dynamics_2.jpg)
 
 # Publications
 Journal Articles
