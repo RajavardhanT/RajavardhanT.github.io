@@ -42,6 +42,16 @@
 * The effect LHCP / RHCP on the overall link dynamics for a LEO satellite moving through the field of view of a ground station at Chennai are analyzed.
 ![IITMSAT2](IITMSAT2.jpg)
 
+* The geomagnetic field directions in the relevant LEO orbit
+![IITMSAT5](IITMSAT5.jpg)
+
+* The LEO satellite availability towards the ground station : Simulation in STK
+![IITMSAT3](IITMSAT3.jpg)
+
+* Link Budget analysis for uplink and downlink
+![IITMSAT_Link_1](IITMSAT_Link_1.jpg)
+![IITMSAT_Link_2](IITMSAT_Link_2.jpg)
+
 
 ## PhD work
 * Related to Multipole Expansion of EM fields
