@@ -13,10 +13,6 @@
 +  [Edge Guided Mode Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054486575467941888?utm_source=share&utm_medium=member_desktop)
 +  [Faraday Rotation Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054131122363895808?utm_source=share&utm_medium=member_desktop)
 
-## Writeups relevant to Signal Integrity
-+ [Djorjovic-Sarkar Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6957530165891477504?utm_source=share&utm_medium=member_desktop)
-+ [Debye Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632?utm_source=share&utm_medium=member_desktop)
-+ [A primer on Generalized, Normalized, Power and Active S-Parameters](https://www.linkedin.com/feed/update/urn:li:activity:6928332906566225920?utm_source=share&utm_medium=member_desktop)
 
 ## Digital Beamforming System  (Work at Ansys)
 * Full system Simulation (Bits to Bits)
@@ -28,6 +24,11 @@
 ![DBF](DBF.jpg)
 ![DBF2](DBF2.jpg)
 
+
+## Writeups relevant to Signal Integrity
++ [Djorjovic-Sarkar Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6957530165891477504?utm_source=share&utm_medium=member_desktop)
++ [Debye Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632?utm_source=share&utm_medium=member_desktop)
++ [A primer on Generalized, Normalized, Power and Active S-Parameters](https://www.linkedin.com/feed/update/urn:li:activity:6928332906566225920?utm_source=share&utm_medium=member_desktop)
 
 ![Bounce](Enhanced_Bounce.png)
 ![DS](DS_Model_RT.png)
@@ -73,7 +74,6 @@
 ## Dyanmics of Charge carriers 
 * Montecarlo simulation of charge carriers in optically excited direct band-gap semiconductors
 ![Monte](Particle_Dynamics.jpg)
-
 ![Monte_2](Particle_Dynamics_2.jpg)
 
 # Publications
@@ -87,9 +87,7 @@ Journal Articles
 3. Talashila, R., & Ramachandran, H. (2019). Determination of Far Fields of Wire Antennas on a PEC Sphere Using Spherical Harmonic Expansion. IEEE Antennas and Wireless Propagation Letters, 18(4),646-650. [Journal 3](https://ieeexplore.ieee.org/document/8644039)
 
 
-
-
-## Teaching Assistant for NPTEL (Two times)
+## Teaching Assistant for NPTEL 
 ![TA_Certificate](TA_2021.jpg)
 ![TA_Certificate](TA_2020.jpg)
 

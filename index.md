@@ -93,3 +93,9 @@ Journal Articles
 
 ## NPTEL_Certifications
 ![NPTEL_Course](SDR_NPTEL.jpg)
+
+
+# Book Reading Recommendations
+
+#  <b>THE DAY WE FOUND THE UNIVERSE <b> by <i>Marcia Bartusiak<i>
+![The_Day](The_day_we_found_the_universe.jpg)
