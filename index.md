@@ -95,19 +95,27 @@ Journal Articles
 ![NPTEL_Course](SDR_NPTEL.jpg)
 
 
-# Book Reading Recommendations
+# Book  Recommendations
 
 #  <b>THE DAY WE FOUND THE UNIVERSE <b> by <i>Marcia Bartusiak<i>
 ![The_Day](The_day_we_found_the_universe.jpg)
-It shows the evolution of human's understanding of the universe by studying the stars. This book is nothing less than a thriller. It takes you through the twists and turns of the conclusions made at crucial steps and their over turns. The complex human interactions are also protrayed to a great extent. You will know why the "Hubble Telescope" is named after him.
+It shows the evolution of human's understanding of the universe by studying the stars. This book is nothing less than a thriller. It takes you through the twists and turns of the conclusions made at crucial steps and their over turns. The complex human interactions are  protrayed to a good detail. You will know why the "Hubble Telescope" is named after him.
 
 
 #  <b>BLACK HOLE <b> by <i>Marcia Bartusiak<i>
 ![Black_Hole](Black_Hole.jpg)
-It starts from the Newton's times and then takes you to the brink of the evidence leading to the possibility of the "holy grail" of physics at the event horizon of a black hole. It is intersting to note the image on the cover corresponding to the validation of the Einstein's General Theory of Relativity. 
+It starts from the Newton's times and then takes you to the brink of the evidence leading to the possibility of the "holy grail" of physics at the event horizon of a black hole. It is intersting to note the image on the cover corresponds to the validation of the Einstein's General Theory of Relativity. 
 
 
 
 #  <b> Einstein : A LIFE IN SCIENCE <b> by <i>Michael White and John Gribbin<i>
 ![Einstein_Book](Einstein_Book.jpg)
-This shows why Einstein's name props in every discussion related to phyiscs. It takes you through a good journey of his life. Along the way, the scientific details are satifying and instills a sense of appreciation towars scientific achievement itself.
+This shows why Einstein's name props in every discussion related to phyiscs. It takes you through a good journey of his life. Along the way, the scientific details are satifying and instills a sense of appreciation towars intellectual achievements themselves.
+
+#  <b> THE STREET LAWYER <b> by <i>John Grisham<i>
+![Street_Lawyer](Street_Lawyer.jpg)
+Depending on your personality, you have a clear conclusion on what is important to you : Money or Social Service. This book in layers depicts the life of home less people and a lawyer who fights for them in a particular situation. By the end, you should be amazed by the balance John Grisham stikes.
+
+#  <b> THE TESTAMENT <b> by <i>John Grisham<i>
+![Testament](Testament.jpg)
+Money, Money, Money.  You just read it untill the end for an unforgettable, sweet and  memorable experience in your life.
