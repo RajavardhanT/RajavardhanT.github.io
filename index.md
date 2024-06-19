@@ -110,12 +110,12 @@ It starts from the Newton's times and then takes you to the brink of the evidenc
 
 #  <b> Einstein : A LIFE IN SCIENCE <b> by <i>Michael White and John Gribbin<i>
 ![Einstein_Book](Einstein_Book.jpg)
-This shows why Einstein's name props in every discussion related to phyiscs. It takes you through a good journey of his life. Along the way, the scientific details are satifying and instills a sense of appreciation towars intellectual achievements themselves.
+This shows why Einstein's name props in every discussion related to phyiscs. It takes you through a good journey of his life. Along the way, the scientific details are satifying and instills a sense of appreciation towards intellectual achievements themselves.
 
 #  <b> THE STREET LAWYER <b> by <i>John Grisham<i>
 ![Street_Lawyer](Street_Lawyer.jpg)
-Depending on your personality, you have a clear conclusion on what is important to you : Money or Social Service. This book in layers depicts the life of home less people and a lawyer who fights for them in a particular situation. By the end, you should be amazed by the balance John Grisham stikes.
+Depending on your personality, you will have a clear conclusion on what is important to you : Money or Social Service. This book in layers depicts the life of home less people and a lawyer who fights for them in a particular situation. By the end, you should be amazed by the balance John Grisham strikes.
 
 #  <b> THE TESTAMENT <b> by <i>John Grisham<i>
 ![Testament](Testament.jpg)
-Money, Money, Money.  You just read it untill the end for an unforgettable, sweet and  memorable experience in your life.
+Money, Money, Money.  You just read it until the end for an unforgettable, sweet and  memorable experience in your life.
