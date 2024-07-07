@@ -119,7 +119,7 @@ This shows why Einstein's name props in every discussion related to phyiscs. It 
 ## <b> Michael Faraday and The Royal Institution: The Genius of Man and Place   <b> by <i> John M. Thomas   <i>
 
 ![Faraday_Book](Faraday_Ri.jpg)
-I read this book on Prof Andrew Zangwill's recommendation.
+I read this book on Prof Andrew [Zangwill's recommendation](https://shepherd.com/best-books/biographies-of-physicists).
 
 Its a gem.
 
