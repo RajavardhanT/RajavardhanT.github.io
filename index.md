@@ -102,7 +102,7 @@ Journal Articles
 # Book  Recommendations
 
 ##  <b>THE DAY WE FOUND THE UNIVERSE <b> by <i>Marcia Bartusiak<i>
-![The_Day](The_day_we_found_the_universe.jpg =x100)
+![<img src="The_day_we_found_the_universe.jpg" width="100"/>](The_day_we_found_the_universe.jpg)
 It shows the evolution of human's understanding of the universe by studying the stars. This book is nothing less than a thriller. It takes you through the twists and turns of the conclusions made at crucial steps and their over turns. The complex human interactions are  protrayed to a good detail. You will know why the "Hubble Telescope" is named after him.
 
 
