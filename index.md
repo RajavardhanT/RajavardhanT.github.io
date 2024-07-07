@@ -118,13 +118,13 @@ This shows why Einstein's name props in every discussion related to phyiscs. It 
 
 ## <b> Michael Faraday and The Royal Institution: The Genius of Man and Place   <b> by <i> John M. Thomas   <i>
 
-![Faraday_Book](Faraday_Ri.jpg)
+![Faraday_Book](Faraday_Ri.jpg =x100)
 I read this book on Prof Andrew [Zangwill's recommendation](https://shepherd.com/best-books/biographies-of-physicists).
 
 Its a gem.
 
 ##  <b> The Monk who sold his Ferrari <b>
-![Monk](Monk.jpg)
+![Monk](Monk.jpg =x100)
 I read this book multiple times. Though I am unable to put into practice all of its contents, this book changed my life to some extent.
 
 ##  <b> THE STREET LAWYER <b> by <i>John Grisham<i>
