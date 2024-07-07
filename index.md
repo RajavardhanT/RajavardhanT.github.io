@@ -86,6 +86,9 @@ Journal Articles
 
 3. Talashila, R., & Ramachandran, H. (2019). Determination of Far Fields of Wire Antennas on a PEC Sphere Using Spherical Harmonic Expansion. IEEE Antennas and Wireless Propagation Letters, 18(4),646-650. [Journal 3](https://ieeexplore.ieee.org/document/8644039)
 
+## Youtube Channel : Mostly on Harmonium
+[Youtube : trvabc](https://www.youtube.com/@trvabc)
+[Spherical Harmonics : An introduction](https://youtu.be/3lHz0jAk6fY?si=tH91g7CLzt1tSL9G)
 
 ## Teaching Assistant for NPTEL 
 ![TA_Certificate](TA_2021.jpg)
