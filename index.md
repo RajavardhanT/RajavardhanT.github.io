@@ -1,4 +1,4 @@
-## Electromagnetics illustrations using Ansys HFSS
+# Electromagnetics illustrations using Ansys HFSS
 ![Summary](LinkedIn_Posts_Summary.png)
 
 +  [Reciprocity](https://www.linkedin.com/feed/update/urn:li:activity:7090251774510452736?utm_source=share&utm_medium=member_desktop)
@@ -14,7 +14,7 @@
 +  [Faraday Rotation Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054131122363895808?utm_source=share&utm_medium=member_desktop)
 
 
-## Digital Beamforming System  (Work at Ansys)
+# Digital Beamforming System Simulation (Work at Ansys)
 * Full system Simulation (Bits to Bits)
 * Used SystemVue + Ansys HFSS + AGI-STK
 * Real RF component characteristics included
@@ -25,7 +25,7 @@
 ![DBF2](DBF2.jpg)
 
 
-## Writeups relevant to Signal Integrity
+# Writeups relevant to Signal Integrity
 + [Djorjovic-Sarkar Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6957530165891477504?utm_source=share&utm_medium=member_desktop)
 + [Debye Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632?utm_source=share&utm_medium=member_desktop)
 + [A primer on Generalized, Normalized, Power and Active S-Parameters](https://www.linkedin.com/feed/update/urn:li:activity:6928332906566225920?utm_source=share&utm_medium=member_desktop)
@@ -34,12 +34,12 @@
 ![DS](DS_Model_RT.png)
 ![S-Param](S-Param_Primer_RT.png)
 
-## Bandpass Filter for 5G
+# Bandpass Filter for 5G
 * Designed, Fabricated and tested a bandpass filter with center frequency 3.5 GHz when working with the 5G Testbed at IIT Madras. 
 ![5G_Filter](5G_Filter.jpg)
 
-## Masters Project : IITMSAT
-### Effect of Attitude on the communication aspects
+# Masters Project : IITMSAT
+## Effect of Satellite Attitude on the communication aspects
 * The open access journal publication is [Engineering Reports](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12402)
 * The antenna radiation patterns for the Tx and Rx on the IITMSAT are analyzed along with the attitude dynamics.
 ![IITMSAT1](IITMSAT1.jpg)
@@ -57,7 +57,7 @@
 ![IITMSAT_Link_2](IITMSAT_Link_2.jpg)
 
 
-## PhD work
+# PhD work
 * Related to Multipole Expansion of EM fields
 ![SH](SH.jpg)
 
@@ -86,16 +86,16 @@ Journal Articles
 
 3. Talashila, R., & Ramachandran, H. (2019). Determination of Far Fields of Wire Antennas on a PEC Sphere Using Spherical Harmonic Expansion. IEEE Antennas and Wireless Propagation Letters, 18(4),646-650. [Journal 3](https://ieeexplore.ieee.org/document/8644039)
 
-## Youtube Channel : Mostly on Harmonium
+# Youtube Channel : Mostly on Harmonium
 [Youtube : trvabc](https://www.youtube.com/@trvabc)
 
 [Spherical Harmonics : An introduction](https://youtu.be/3lHz0jAk6fY?si=tH91g7CLzt1tSL9G)
 
-## Teaching Assistant for NPTEL 
+# Teaching Assistant for NPTEL 
 ![TA_Certificate](TA_2021.jpg)
 ![TA_Certificate](TA_2020.jpg)
 
-## NPTEL_Certifications
+# NPTEL_Certifications
 ![NPTEL_Course](SDR_NPTEL.jpg)
 
 
@@ -138,5 +138,5 @@ Money, Money, Money.  You just read it until the end for an unforgettable, sweet
 
 # Useful Websites
 
-## uncertainity.nist.gov
-## concensus.nist.gov
+* [uncertainity.nist.gov]
+* [concensus.nist.gov]
