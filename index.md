@@ -1,3 +1,6 @@
+# Rajavardhan Talashila (RT)
+*[LinkedIn](https://www.linkedin.com/in/rajavardhan-talashila-rt-37800a76/)
+
 # Electromagnetics illustrations using Ansys HFSS
 ![Summary](LinkedIn_Posts_Summary.png)
 
