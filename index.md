@@ -101,7 +101,7 @@ Journal Articles
 ![NPTEL_Course](SDR_NPTEL.jpg)
 
 
-# Book  Recommendations
+# Books
 
 +  <b>THE DAY WE FOUND THE UNIVERSE <b> by <i>Marcia Bartusiak<i>
 ![The_Day](The_day_we_found_the_universe.jpg)
@@ -125,10 +125,9 @@ I read this book on Prof [Andrew Zangwill's recommendation](https://shepherd.com
 
 Its a gem.
 
++  <b> Longitude <b>
 ![Longitude_Dava_Sobel](Longitude.jpg)
-One will understand how many obstacles one should overcome to achieve something in the scientific world.
-
-
+One will understand how many obstacles one should overcome to achieve something in the scientific world. This problem was know to Newton too. But he didn't propose a solution in his lifetime.
 
 
 +  <b> The Monk who sold his Ferrari <b>
