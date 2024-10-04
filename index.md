@@ -125,6 +125,11 @@ I read this book on Prof [Andrew Zangwill's recommendation](https://shepherd.com
 
 Its a gem.
 
+![Longitude_Dava_Sobel](Longitude.jpg)
+One will understand how many obstacles one should overcome to achieve something in the scientific world.
+
+
+
 
 +  <b> The Monk who sold his Ferrari <b>
 ![Monk](Monk.jpg)
