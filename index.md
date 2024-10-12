@@ -125,9 +125,11 @@ I read this book on Prof [Andrew Zangwill's recommendation](https://shepherd.com
 
 Its a gem.
 
-+  <b> Longitude <b>
++  <b> Longitude <b> by  <i>Dava Sobel<i>
+
 ![Longitude_Dava_Sobel](Longitude.jpg)
-One will understand how many obstacles one should overcome to achieve something in the scientific world. This problem was know to Newton too. But he didn't propose a solution in his lifetime.
+
+	One will understand how many obstacles one should overcome to achieve something in the scientific world. This problem was know to Newton too. But he didn't propose a solution in his lifetime.
 
 
 +  <b> The Monk who sold his Ferrari <b>
