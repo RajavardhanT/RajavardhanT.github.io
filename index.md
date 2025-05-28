@@ -100,6 +100,8 @@ Journal Articles
 
 ![NPTEL_Course](SDR_NPTEL.jpg)
 
+# Trainings
+![VNATools](VNATools.jpg)
 
 # Books Read
 
