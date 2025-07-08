@@ -105,6 +105,13 @@ Journal Articles
 
 # Books Read
 
++  <b>EINSTEIN AND THE QUANTUM<b> by <i>A. Douglas Stone<i>
+
+![Einstein_Stone](Einstein_Stone.jpg)
+
+	It shows/proves the Einstein's contributions and his influence on the development on the Qunatum Theory / Quantum Mechanics. His genius in interpretting the works of Bose, de Broglie, Schordinger etc is wonderful. His courage in predicting BEC is breathtaking. He seems to have a huge influence on the leading scientists of the quantum mechanics not limited to Born, Heisenberg, Schrodinger etc.
+
+
 +  <b>THE DAY WE FOUND THE UNIVERSE <b> by <i>Marcia Bartusiak<i>
 
 ![The_Day](The_day_we_found_the_universe.jpg)
