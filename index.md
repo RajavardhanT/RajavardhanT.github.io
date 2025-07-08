@@ -1,4 +1,4 @@
-# Rajavardhan Talashila (RT)
+# RT
 *[LinkedIn](https://www.linkedin.com/in/rajavardhan-talashila-rt-37800a76/)
 *[Youtube : trvabc](https://www.youtube.com/@trvabc)
 *[Spherical Harmonics : An introduction](https://youtu.be/3lHz0jAk6fY?si=tH91g7CLzt1tSL9G)
