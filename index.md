@@ -84,12 +84,16 @@
 # Publications
 Journal Articles
 
-1. Talashila, R., & Ramachandran, H. (2021). Effect of polarization on the link dynamics of a spinning low-earth orbits satellite aligned with geomagnetic field. Engineering Reports
-[Journal 1](https://onlinelibrary.wiley.com/doi/pdf/10.1002/eng2.12402)
+1. Talashila, Rajavardhan, William J. Watterson, Benjamin L. Moser, et al. 2025. “Determining Angle of Arrival of Radio-Frequency Fields Using Subwavelength, Amplitude-Only Measurements of Standing Waves in a Rydberg Atom Sensor.” Journal of Applied Physics 138 (11): 114402.
+[Journal 1](https://doi.org/10.1063/5.0285778)
 
-2. Talashila, R., & Ramachandran, H. (2020). Multipole Expansion of Radiation From Patch Antenna Using Quasi-Static Surface Currents. IEEE Antennas and Wireless Propagation Letters, 19(12), 2136-2140. [Journal 2](https://ieeexplore.ieee.org/document/9200656/)
 
-3. Talashila, R., & Ramachandran, H. (2019). Determination of Far Fields of Wire Antennas on a PEC Sphere Using Spherical Harmonic Expansion. IEEE Antennas and Wireless Propagation Letters, 18(4),646-650. [Journal 3](https://ieeexplore.ieee.org/document/8644039)
+2. Talashila, R., & Ramachandran, H. (2021). Effect of polarization on the link dynamics of a spinning low-earth orbits satellite aligned with geomagnetic field. Engineering Reports
+[Journal 2](https://onlinelibrary.wiley.com/doi/pdf/10.1002/eng2.12402)
+
+3. Talashila, R., & Ramachandran, H. (2020). Multipole Expansion of Radiation From Patch Antenna Using Quasi-Static Surface Currents. IEEE Antennas and Wireless Propagation Letters, 19(12), 2136-2140. [Journal 3](https://ieeexplore.ieee.org/document/9200656/)
+
+4. Talashila, R., & Ramachandran, H. (2019). Determination of Far Fields of Wire Antennas on a PEC Sphere Using Spherical Harmonic Expansion. IEEE Antennas and Wireless Propagation Letters, 18(4),646-650. [Journal 4](https://ieeexplore.ieee.org/document/8644039)
 
 
 
@@ -102,8 +106,14 @@ Journal Articles
 
 # Trainings
 ![VNATools](VNATools.jpg)
-
+![Single Photon Course](Single_Photon_Certificate.png)
 # Books Read
+
++  <b>Einstein's Masterwork: 1915 and the General Theory of Relativity<b> by <i>John Gribbin with Mary Gribbin<i>
+
+![Einstein_Masterwork](Einstein_Masterwork.jpg)
+
+	It outlines the crux of the Einstein's papers of the Annus Mirabilis and then about his Masterwork.
 
 +  <b>EINSTEIN AND THE QUANTUM<b> by <i>A. Douglas Stone<i>
 
