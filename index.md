@@ -175,11 +175,12 @@ Its a gem.
 ![Testament](Testament.jpg)
 
 	Money, Money, Money.  You just read it until the end for an unforgettable, sweet and  memorable experience in your life.
-+ The Summons
+	
++  <b> The Summons  <b>  by <i>John Grisham<i>
 
-+ The Last Juror 
++  <b> The Last Juror  <b>  by <i>John Grisham<i>
 
-+ The Confession
++  <b> The Confession  <b>  by <i>John Grisham<i>
 
 + <b>  Dispatches from Planet 3 <b> by  <i>Marcia Bartusiak<i>
 
