@@ -107,6 +107,7 @@ Journal Articles
 # Trainings
 ![VNATools](VNATools.jpg)
 ![Single Photon Course](Single_Photon_Certificate.png)
+
 # Books Read
 
 +  <b>Einstein's Masterwork: 1915 and the General Theory of Relativity<b> by <i>John Gribbin with Mary Gribbin<i>
@@ -164,15 +165,15 @@ Its a gem.
 
 	I read this book multiple times. Though I am unable to put into practice all of its contents, this book changed my life to some extent.
 
-+  <b> THE STREET LAWYER <b> by <i>John Grisham<i>
++  <b>  Dispatches from Planet 3 <b> by  <i>Marcia Bartusiak<i>
 
-![Street_Lawyer](Street_Lawyer.jpg)
+# Novels
+
++  <b> THE STREET LAWYER <b> by <i>John Grisham<i>
 
 	Depending on your personality, you will have a clear conclusion on what is important to you : Money or Social Service. This book in layers depicts the life of home less people and a lawyer who fights for them in a particular situation. By the end, you should be amazed by the balance John Grisham strikes.
 
 +  <b> THE TESTAMENT <b> by <i>John Grisham<i>
-
-![Testament](Testament.jpg)
 
 	Money, Money, Money.  You just read it until the end for an unforgettable, sweet and  memorable experience in your life.
 	
@@ -182,6 +183,7 @@ Its a gem.
 
 +  <b> The Confession  <b>  by <i>John Grisham<i>
 
-+ <b>  Dispatches from Planet 3 <b> by  <i>Marcia Bartusiak<i>
++  <b> A Painted House <b>  by <i>John Grisham<i>
+
 
 
