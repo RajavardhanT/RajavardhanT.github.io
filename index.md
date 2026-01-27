@@ -107,8 +107,12 @@ Journal Articles
 # Trainings
 ![VNATools](VNATools.jpg)
 ![Single Photon Course](Single_Photon_Certificate.png)
-
+![Altium_A](RT_Altium_Badge1.png)
+![Altium_A](Altium_Certificate_1.pdf)
 # Books Read
+
++ <b>Pendulum: Leon Foucault and the Triumph of Science<b> by <i>Amir D. Aczel<i>
+![Pendulum](Pendulum.jpg)
 
 +  <b>Einstein's Masterwork: 1915 and the General Theory of Relativity<b> by <i>John Gribbin with Mary Gribbin<i>
 
