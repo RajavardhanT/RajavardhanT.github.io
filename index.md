@@ -108,7 +108,7 @@ Journal Articles
 ![VNATools](VNATools.jpg)
 ![Single Photon Course](Single_Photon_Certificate.png)
 ![Altium_A](RT_Altium_Badge1.png)
-![Altium_A](Altium_Certificate_1.pdf)
+![Altium_A](Altium_Certificate_A.png)
 # Books Read
 
 + <b>Pendulum: Leon Foucault and the Triumph of Science<b> by <i>Amir D. Aczel<i>
