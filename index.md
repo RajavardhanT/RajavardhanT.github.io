@@ -136,7 +136,7 @@ Journal Articles
 
 +  <b>BLACK HOLE <b> by <i>Marcia Bartusiak<i>
 
-![Black_Hole](Black_Hole.jpg | width=100)
+![Black_Hole](Black_Hole.jpg | height=50)
 
 	It starts from the Newton's times and then takes you to the brink of the evidence leading to the possibility of the "holy grail" of physics at the event horizon of a black hole. It is intersting to note the image on the cover corresponds to the validation of the Einstein's General Theory of Relativity. 
 
