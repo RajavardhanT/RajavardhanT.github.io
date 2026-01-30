@@ -112,6 +112,7 @@ Journal Articles
 # Books Read
 
 + <b>Pendulum: Leon Foucault and the Triumph of Science<b> by <i>Amir D. Aczel<i>
+
 [//]: # ![Pendulum](Pendulum.jpg)
 <img src="Pendulum.jpg" width="200">
 
