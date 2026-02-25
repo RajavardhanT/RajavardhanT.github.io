@@ -190,7 +190,7 @@ Its a gem.
 
 + <b> The Body <b> by <i> Bill Bryson <i>
 
-<img src=Bill_Bryson_Body.jpg" width="200">
+<img src="Bill_Bryson_Body.jpg" width="200">
 
 
 # Novels Read
