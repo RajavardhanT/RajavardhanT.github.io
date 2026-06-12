@@ -3,6 +3,17 @@
 *[Youtube : trvabc](https://www.youtube.com/@trvabc)
 *[Spherical Harmonics : An introduction](https://youtu.be/3lHz0jAk6fY?si=tH91g7CLzt1tSL9G)
 
+# Education and Experience
+
+| Institution | Period |
+|---|---|
+| Junior Telecom officer, BSNL | 2010-2012 |
+| Masters, Photonics, IIT Madras | 2010-2014|
+| PhD, EE, IIT Madras | 2014-2020|
+| Project Associate, 5G Testbed, IIT Madras| 2020-2021|
+| Senior Application Engineer, Ansys| 2021-2023|
+| PhD(Pursuing), NIST - CU Boulder|2023-Present|
+
 # Electromagnetics illustrations using Ansys HFSS
 ![Summary](LinkedIn_Posts_Summary.png)
 
@@ -42,6 +53,10 @@
 # Bandpass Filter for 5G
 * Designed, Fabricated and tested a bandpass filter with center frequency 3.5 GHz when working with the 5G Testbed at IIT Madras. 
 ![5G_Filter](5G_Filter.jpg)
+
+# Active Circuit Design
+* Dual stage amplifier with on-chip antenna @ 24 GHz
+![Zoya_Active](Zoya_Active.jpg)
 
 # Masters Project : IITMSAT
 * Effect of Satellite Attitude on the communication aspects
