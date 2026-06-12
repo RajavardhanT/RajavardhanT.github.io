@@ -193,8 +193,12 @@ Its a gem.
 <img src="Bill_Bryson_Body.jpg" width="200">
 
 + <b> The LAST LECTURE <b> by <i> Randy Pausch with Jeffery Zaslow <i>
+
 <img src="The_Last_Lecture.jpg" width="200">
 
++ <b> A Planet Called Earth <b> by <i> George Gamow <i> 
+
+<img src="Planet_Earth_Gamow.jpg" width="200">
 
 # Novels Read
 
