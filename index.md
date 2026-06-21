@@ -204,6 +204,13 @@ Its a gem.
 
 <img src="Planet_Earth_Gamow.jpg" width="200">
 
++ <b> Man's Search For Meaning <i> Viktor E. Frankl <i> 
+
+<img src="Frankl_Meaning.jpg" width="200">
+
+	Man is ultimately self-determining. Hope, faith and love cannot be ordered or commanded. Responsibleness: the essence of human existence. One may find meaning in suffering. Human being is not one in pursuit of happiness but rather in search of a reason to become happy.
+
+
 # Novels Read
 
 +  <b> THE STREET LAWYER <b> by <i>John Grisham<i>
