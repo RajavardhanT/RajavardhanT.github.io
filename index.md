@@ -113,6 +113,7 @@ Journal Articles
 ![Single Photon Course](Single_Photon_Certificate.png)
 ![Altium_A](RT_Altium_Badge1.png)
 ![Altium_A](Altium_Certificate_A.png)
+![AHA](AHA.png)
 # Books Read
 
 + <b>Pendulum: Leon Foucault and the Triumph of Science<b> by <i>Amir D. Aczel<i>
@@ -204,9 +205,13 @@ Its a gem.
 
 <img src="Planet_Earth_Gamow.jpg" width="200">
 
-+ <b> Man's Search For Meaning <i> Viktor E. Frankl <i> 
++ <b> Man's Search For Meaning <b> by  <i> Viktor E. Frankl <i> 
 
 <img src="Frankl_Meaning.jpg" width="200">
+
++ <b> Ramayana <b> by <i> C.Rajagopalachari <i>
+
+<img src="Ramayana.jpg" width="200">
 
 	Man is ultimately self-determining. Hope, faith and love cannot be ordered or commanded. Responsibleness: the essence of human existence. One may find meaning in suffering. Human being is not one in pursuit of happiness but rather in search of a reason to become happy.
 
