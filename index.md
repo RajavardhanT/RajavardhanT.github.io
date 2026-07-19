@@ -209,11 +209,15 @@ Its a gem.
 
 <img src="Frankl_Meaning.jpg" width="200">
 
+
+	Man is ultimately self-determining. Hope, faith and love cannot be ordered or commanded. Responsibleness: the essence of human existence. One may find meaning in suffering. Human being is not one in pursuit of happiness but rather in search of a reason to become happy.
+
 + <b> Ramayana <b> by <i> C.Rajagopalachari <i>
 
 <img src="Ramayana.jpg" width="200">
 
-	Man is ultimately self-determining. Hope, faith and love cannot be ordered or commanded. Responsibleness: the essence of human existence. One may find meaning in suffering. Human being is not one in pursuit of happiness but rather in search of a reason to become happy.
+Read multiple times. The interpretation by Rajaji makes us reflect on ourselves.
+
 
 
 # Novels Read
