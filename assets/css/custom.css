@@ -1,13 +1,13 @@
 /* Custom portfolio styling */
 :root {
-  --rt-bg: #f5f7fb;
+  --rt-bg: #f3f5f6;
   --rt-surface: #ffffff;
-  --rt-text: #18212f;
-  --rt-muted: #5f6b7a;
-  --rt-line: #dfe5ec;
-  --rt-accent: #22577a;
-  --rt-accent-dark: #183d55;
-  --rt-chip: #eaf2f8;
+  --rt-text: #17212b;
+  --rt-muted: #65727f;
+  --rt-line: #d8dee3;
+  --rt-accent: #2f6f73;
+  --rt-accent-dark: #203a43;
+  --rt-chip: #e8f1f1;
 }
 
 * {
@@ -51,12 +51,12 @@ h1, h2, h3 {
 }
 
 .rt-hero {
-  background: linear-gradient(135deg, #ffffff 0%, #eef5fa 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #eef2f2 62%, #e7efef 100%);
   border: 1px solid var(--rt-line);
   border-radius: 20px;
   padding: 2.25rem;
   margin: 1rem 0 2rem;
-  box-shadow: 0 12px 32px rgba(24, 33, 47, 0.07);
+  box-shadow: 0 12px 32px rgba(23, 33, 43, 0.07);
 }
 
 .rt-eyebrow {
@@ -109,7 +109,7 @@ h1, h2, h3 {
 
 .rt-button:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 16px rgba(24, 33, 47, 0.08);
+  box-shadow: 0 6px 16px rgba(23, 33, 43, 0.08);
 }
 
 .rt-button.primary {
@@ -127,7 +127,7 @@ h1, h2, h3 {
 
 .rt-tag {
   background: var(--rt-chip);
-  border: 1px solid #d7e6f1;
+  border: 1px solid #cfdddd;
   color: var(--rt-accent-dark);
   padding: 0.34rem 0.62rem;
   border-radius: 999px;
@@ -163,7 +163,7 @@ h1, h2, h3 {
   border: 1px solid var(--rt-line);
   border-radius: 16px;
   padding: 1.25rem;
-  box-shadow: 0 8px 24px rgba(24, 33, 47, 0.045);
+  box-shadow: 0 8px 24px rgba(23, 33, 43, 0.045);
 }
 
 .rt-card h3 {
@@ -196,7 +196,7 @@ h1, h2, h3 {
   width: 100%;
   max-height: 330px;
   object-fit: contain;
-  background: #f9fbfd;
+  background: #f8faf9;
   border: 1px solid var(--rt-line);
   border-radius: 12px;
   padding: 0.4rem;
@@ -205,7 +205,7 @@ h1, h2, h3 {
 
 .rt-highlight {
   border-left: 4px solid var(--rt-accent);
-  background: #f0f6fa;
+  background: #edf4f3;
   border-radius: 12px;
   padding: 1rem 1.1rem;
   margin: 1rem 0;
@@ -249,10 +249,11 @@ h1, h2, h3 {
 }
 
 .rt-contact {
-  background: var(--rt-accent-dark);
+  background: linear-gradient(135deg, #203a43 0%, #172a32 100%);
   color: #ffffff;
   border-radius: 18px;
   padding: 1.5rem;
+  box-shadow: 0 12px 28px rgba(23, 33, 43, 0.12);
 }
 
 .rt-contact h2,
@@ -262,7 +263,7 @@ h1, h2, h3 {
 }
 
 .rt-contact a {
-  color: #ffffff;
+  color: #d6ecea;
   font-weight: 700;
 }
 
