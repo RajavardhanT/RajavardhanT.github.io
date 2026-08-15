@@ -1,242 +1,174 @@
-# RT
-*[LinkedIn](https://www.linkedin.com/in/rajavardhan-talashila-rt-37800a76/)
-*[Youtube : trvabc](https://www.youtube.com/@trvabc)
-*[Spherical Harmonics : An introduction](https://youtu.be/3lHz0jAk6fY?si=tH91g7CLzt1tSL9G)
+# Rajavardhan Talashila (RT)
 
-# Electromagnetics illustrations using Ansys HFSS
-![Summary](LinkedIn_Posts_Summary.png)
+**RF & Microwave Engineer | Quantum / Rydberg RF Sensing | Antennas & Electromagnetics | Wireless Systems**
 
-+  [Reciprocity](https://www.linkedin.com/feed/update/urn:li:activity:7090251774510452736?utm_source=share&utm_medium=member_desktop)
-+  [Duality](https://www.linkedin.com/feed/update/urn:li:activity:7087301378447986688?utm_source=share&utm_medium=member_desktop)
-+  [Enhanced Bounce Diagram](https://www.linkedin.com/feed/update/urn:li:activity:7088114458455113728?utm_source=share&utm_medium=member_desktop)
-+  [Clarinet as a Horn Antenna](https://www.linkedin.com/feed/update/urn:li:activity:7073731131421970432?utm_source=share&utm_medium=member_desktop)
-+  [Slide Screw Tuner working principle](https://www.linkedin.com/feed/update/urn:li:activity:7072264357472063488?utm_source=share&utm_medium=member_desktop)
-+  [Resonance Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7069214665616089088?utm_source=share&utm_medium=member_desktop)
-+  [Dual Junction Circulator](https://www.linkedin.com/feed/update/urn:li:activity:7067981858117988352?utm_source=share&utm_medium=member_desktop)
-+  [Microwave Testbench](https://www.linkedin.com/feed/update/urn:li:activity:7059154495213109249?utm_source=share&utm_medium=member_desktop)
-+  [Direct Reading Frequency Meter](https://www.linkedin.com/feed/update/urn:li:activity:7058814767045476352?utm_source=share&utm_medium=member_desktop)
-+  [Edge Guided Mode Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054486575467941888?utm_source=share&utm_medium=member_desktop)
-+  [Faraday Rotation Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054131122363895808?utm_source=share&utm_medium=member_desktop)
+I am an electrical engineer and researcher working at the intersection of **RF and microwave engineering, antennas, wireless systems, electromagnetic simulation, and quantum-enabled RF sensing**.
 
+My current work at **NIST** focuses on Rydberg-atom-based RF sensing, including **angle-of-arrival estimation** and characterization of atomic RF sensors across VHF/UHF and microwave frequencies. Previously, as a **Senior Application Engineer at Ansys**, I worked on antenna, PCB, EMI/EMC, signal-integrity, power-integrity, sensing, radiation, and beamforming simulation problems.
 
-# Digital Beamforming System Simulation (Work at Ansys)
-* Full system Simulation (Bits to Bits)
-* Used SystemVue + Ansys HFSS + AGI-STK
-* Real RF component characteristics included
-* The flight dynamics are implemented in STK and linked to SystemVue
-* Installed array patterns from HFSS are included in SystemVue
-* Time wise tracking of the Tx / Rx are done with bidirectional link between SystemVue and STK
-![DBF](DBF.jpg)
-![DBF2](DBF2.jpg)
+I enjoy solving technically challenging problems that connect **fundamental physics with practical RF, wireless, sensing, and measurement systems**.
 
+[LinkedIn](https://www.linkedin.com/in/rajavardhan-talashila-rt-37800a76/) · [Publications](#selected-publications) · [Projects](#selected-projects) · [Books I’ve Read](books/) · [YouTube](https://www.youtube.com/@trvabc) · [Email](mailto:trvabc@gmail.com)
 
-# Writeups relevant to Signal Integrity
-+ [Djorjovic-Sarkar Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6957530165891477504?utm_source=share&utm_medium=member_desktop)
-+ [Debye Model as in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632?utm_source=share&utm_medium=member_desktop)
-+ [A primer on Generalized, Normalized, Power and Active S-Parameters](https://www.linkedin.com/feed/update/urn:li:activity:6928332906566225920?utm_source=share&utm_medium=member_desktop)
+---
 
-![Bounce](Enhanced_Bounce.png)
-![DS](DS_Model_RT.png)
-![S-Param](S-Param_Primer_RT.png)
+## Current Research Focus
 
-# Bandpass Filter for 5G
-* Designed, Fabricated and tested a bandpass filter with center frequency 3.5 GHz when working with the 5G Testbed at IIT Madras. 
-![5G_Filter](5G_Filter.jpg)
+### Quantum / Rydberg RF Sensing — NIST
 
-# Active Circuit Design
-* Dual stage amplifier with on-chip antenna @ 24 GHz
-![Zoya_Active](Zoya_Active.jpg)
+- Developing and experimentally studying **Rydberg-atom-based RF sensors**.
+- Introduced a novel approach for **RF angle-of-arrival estimation** using subwavelength, amplitude-only measurements of standing waves.
+- Characterizing Rydberg-sensor response and sensitivity across **VHF, UHF, and microwave frequencies**.
+- Studying RF-induced dressed-state behavior, AC Stark shifts, and related atom-based RF measurement techniques.
+- Named inventor on patent-related work arising from Rydberg RF sensing research.
 
-# Masters Project : IITMSAT
-* Effect of Satellite Attitude on the communication aspects
-* The open access journal publication is [Engineering Reports](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12402)
-* The antenna radiation patterns for the Tx and Rx on the IITMSAT are analyzed along with the attitude dynamics.
-![IITMSAT1](IITMSAT1.jpg)
-* The effect LHCP / RHCP on the overall link dynamics for a LEO satellite moving through the field of view of a ground station at Chennai are analyzed.
-![IITMSAT2](IITMSAT2.jpg)
+**Selected publication:**  
+[Determining angle of arrival of radio-frequency fields using subwavelength, amplitude-only measurements of standing waves in a Rydberg atom sensor](https://doi.org/10.1063/5.0285778) — *Journal of Applied Physics*, 2025.
 
-* The geomagnetic field directions in the relevant LEO orbit
-![IITMSAT5](IITMSAT5.jpg)
+---
 
-* The LEO satellite availability towards the ground station : Simulation in STK
-![IITMSAT3](IITMSAT3.jpg)
+## Professional Experience
 
-* Link Budget analysis for uplink and downlink
-![IITMSAT_Link_1](IITMSAT_Link_1.jpg)
-![IITMSAT_Link_2](IITMSAT_Link_2.jpg)
+### Project Associate — National Institute of Standards and Technology (NIST)
+**Boulder, Colorado | 2024–Present**
 
+Research in atom-based RF sensing with an emphasis on Rydberg electrometry, direction finding, RF-field characterization, optical spectroscopy, and experimental automation.
 
-# PhD work
-* Related to Multipole Expansion of EM fields
-![SH](SH.jpg)
+### Senior Application Engineer — Ansys
+**Bengaluru, India | 2021–2023**
 
-* Pyramidal Horn Antenna : Multipole Analysis
-![Horn1](Horn1.jpg)
-![Horn2](Horn2.jpg)
-![Horn3](Horn3.jpg)
-![Horn4](Horn4.jpg)
+- Supported engineering teams across industries with **HFSS and electromagnetic simulation** problems.
+- Worked on **antennas, PCB structures, sensing devices, EMI/EMC, signal integrity, power integrity, and radiation**.
+- Contributed to a digital beamforming-array simulation effort associated with **AFRL**.
+- Worked across full-system RF workflows involving electromagnetic models, installed antenna patterns, realistic component characteristics, and system-level simulation.
 
-* Understanding the bandstructure of GaAs
-![GaAs_1](GaAs_1.jpg)
-![GaAs_2](GaAs_2.jpg)
+### Project Assistant — 5G Testbed, IIT Madras
+**Chennai, India | 2020–2021**
 
+- Designed, fabricated, and experimentally tested a **3.5 GHz passive bandpass filter** for 5G applications.
+- Contributed to antenna design and testing for 5G base-station applications.
 
-* Dynamics of Charge Carriers :  Montecarlo simulation of charge carriers in optically excited direct band-gap semiconductors
-![Monte](Particle_Dynamics.jpg)
-![Monte_2](Particle_Dynamics_2.jpg)
+### Junior Telecom Officer — BSNL
+**India | 2010–2012**
 
-# Publications
-Journal Articles
+Worked with wired telephony, 2G/3G cellular systems, optical-fiber networks, and customer-facing telecom operations.
 
-1. Talashila, Rajavardhan, William J. Watterson, Benjamin L. Moser, et al. 2025. “Determining Angle of Arrival of Radio-Frequency Fields Using Subwavelength, Amplitude-Only Measurements of Standing Waves in a Rydberg Atom Sensor.” Journal of Applied Physics 138 (11): 114402.
-[Journal 1](https://doi.org/10.1063/5.0285778)
+---
 
+## Selected Projects
 
-2. Talashila, R., & Ramachandran, H. (2021). Effect of polarization on the link dynamics of a spinning low-earth orbits satellite aligned with geomagnetic field. Engineering Reports
-[Journal 2](https://onlinelibrary.wiley.com/doi/pdf/10.1002/eng2.12402)
+### Digital Beamforming System Simulation — Ansys
 
-3. Talashila, R., & Ramachandran, H. (2020). Multipole Expansion of Radiation From Patch Antenna Using Quasi-Static Surface Currents. IEEE Antennas and Wireless Propagation Letters, 19(12), 2136-2140. [Journal 3](https://ieeexplore.ieee.org/document/9200656/)
+End-to-end RF system simulation combining **Ansys HFSS, Keysight PathWave SystemVue, and AGI/STK**.
 
-4. Talashila, R., & Ramachandran, H. (2019). Determination of Far Fields of Wire Antennas on a PEC Sphere Using Spherical Harmonic Expansion. IEEE Antennas and Wireless Propagation Letters, 18(4),646-650. [Journal 4](https://ieeexplore.ieee.org/document/8644039)
+- Included realistic RF component characteristics.
+- Imported installed antenna-array patterns from HFSS into system-level simulation.
+- Linked platform/flight dynamics in STK with communication-system simulation.
+- Evaluated time-varying Tx/Rx behavior in a bidirectionally coupled workflow.
 
+![Digital beamforming simulation](DBF.jpg)
 
+### 5G Bandpass Filter — IIT Madras
 
-# NPTEL 
-![TA_Certificate](TA_2021.jpg)
-![TA_Certificate](TA_2020.jpg)
+Designed, fabricated, and tested a **3.5 GHz bandpass filter** for the IIT Madras 5G Testbed.
 
+![5G bandpass filter](5G_Filter.jpg)
 
-![NPTEL_Course](SDR_NPTEL.jpg)
+### Satellite Communication & Antenna Analysis — IITMSAT
 
-# Trainings
-![VNATools](VNATools.jpg)
-![Single Photon Course](Single_Photon_Certificate.png)
-![Altium_A](RT_Altium_Badge1.png)
-![Altium_A](Altium_Certificate_A.png)
-![AHA](AHA.png)
-# Books Read
+Studied the effect of satellite attitude and antenna polarization on LEO communication links, including:
 
-+ <b>Pendulum: Leon Foucault and the Triumph of Science<b> by <i>Amir D. Aczel<i>
+- Tx/Rx antenna radiation patterns and spacecraft attitude dynamics.
+- LHCP/RHCP behavior through a ground-station field of view.
+- Orbit-dependent availability and link-budget analysis.
+- STK-based orbital and communication simulations.
 
-[//]: # ![Pendulum](Pendulum.jpg)
-<img src="Pendulum.jpg" width="200">
+[Related open-access publication](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12402)
 
-+  <b>Einstein's Masterwork: 1915 and the General Theory of Relativity<b> by <i>John Gribbin with Mary Gribbin<i>
+![IITMSAT simulation](IITMSAT1.jpg)
 
-[//]: # ![Einstein_Masterwork](Einstein_Masterwork.jpg)
-<img src="Einstein_Masterwork.jpg" width="200">
+### Multipole Expansion of Electromagnetic Radiation
 
-	It outlines the crux of the Einstein's papers of the Annus Mirabilis and then about his Masterwork.
+Doctoral research on multipole / spherical-harmonic representations of antenna radiation, including wire, patch, and horn antennas.
 
-+  <b>EINSTEIN AND THE QUANTUM<b> by <i>A. Douglas Stone<i>
+![Spherical harmonics](SH.jpg)
 
-[//]: # ![Einstein_Stone](Einstein_Stone.jpg)
-<img src="Einstein_Stone.jpg" width="200">
+---
 
-	It shows/proves the Einstein's contributions and his influence on the development on the Qunatum Theory / Quantum Mechanics. His genius in interpretting the works of Bose, de Broglie, Schordinger etc is wonderful. His courage in predicting BEC is breathtaking. He seems to have a huge influence on the leading scientists of the quantum mechanics not limited to Born, Heisenberg, Schrodinger etc.
+## Electromagnetics & RF Technical Notes
 
+I have also created short technical illustrations and write-ups on electromagnetic and microwave concepts using HFSS and related tools.
 
-+  <b>THE DAY WE FOUND THE UNIVERSE <b> by <i>Marcia Bartusiak<i>
+### Electromagnetics
+- [Reciprocity](https://www.linkedin.com/feed/update/urn:li:activity:7090251774510452736)
+- [Duality](https://www.linkedin.com/feed/update/urn:li:activity:7087301378447986688)
+- [Enhanced Bounce Diagram](https://www.linkedin.com/feed/update/urn:li:activity:7088114458455113728)
+- [Clarinet as a Horn Antenna](https://www.linkedin.com/feed/update/urn:li:activity:7073731131421970432)
+- [Slide Screw Tuner — working principle](https://www.linkedin.com/feed/update/urn:li:activity:7072264357472063488)
+- [Resonance Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7069214665616089088)
+- [Dual Junction Circulator](https://www.linkedin.com/feed/update/urn:li:activity:7067981858117952)
+- [Microwave Testbench](https://www.linkedin.com/feed/update/urn:li:activity:7059154495213109249)
+- [Direct Reading Frequency Meter](https://www.linkedin.com/feed/update/urn:li:activity:7058814767045476352)
+- [Edge Guided Mode Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054486575467941888)
+- [Faraday Rotation Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054131122363895808)
 
-[//]: # ![The_Day](The_day_we_found_the_universe.jpg)
-<img src="The_day_we_found_the_universe.jpg" width="200">
+### Signal Integrity
+- [Djordjevic–Sarkar material model in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6957530165891477504)
+- [Debye model in HFSS](https://www.linkedin.com/feed/update/urn:li:activity:6988146589634629632)
+- [Generalized, normalized, power, and active S-parameters](https://www.linkedin.com/feed/update/urn:li:activity:6928332906566225920)
 
-	It shows the evolution of human's understanding of the universe by studying the stars. This book is nothing less than a thriller. It takes you through the twists and turns of the conclusions made at crucial steps and their over turns. The complex human interactions are  protrayed to a good detail. You will know why the "Hubble Telescope" is named after him.
+---
 
+## Selected Publications
 
-+  <b>BLACK HOLE <b> by <i>Marcia Bartusiak<i>
+1. **Talashila, R.**, Watterson, W. J., Moser, B. L., et al. (2025). “Determining Angle of Arrival of Radio-Frequency Fields Using Subwavelength, Amplitude-Only Measurements of Standing Waves in a Rydberg Atom Sensor.” *Journal of Applied Physics*, 138(11), 114402.  
+   [DOI](https://doi.org/10.1063/5.0285778)
 
-[//]: # ![Black_Hole](Black_Hole.jpg)
-<img src="Black_Hole.jpg" width="200">
+2. **Talashila, R.**, & Ramachandran, H. (2021). “Effect of polarization on the link dynamics of a spinning low-earth orbit satellite aligned with geomagnetic field.” *Engineering Reports*.  
+   [Open access](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12402)
 
-	It starts from the Newton's times and then takes you to the brink of the evidence leading to the possibility of the "holy grail" of physics at the event horizon of a black hole. It is intersting to note the image on the cover corresponds to the validation of the Einstein's General Theory of Relativity. 
+3. **Talashila, R.**, & Ramachandran, H. (2020). “Multipole Expansion of Radiation From Patch Antenna Using Quasi-Static Surface Currents.” *IEEE Antennas and Wireless Propagation Letters*, 19(12), 2136–2140.  
+   [IEEE Xplore](https://ieeexplore.ieee.org/document/9200656/)
 
+4. **Talashila, R.**, & Ramachandran, H. (2019). “Determination of Far Fields of Wire Antennas on a PEC Sphere Using Spherical Harmonic Expansion.” *IEEE Antennas and Wireless Propagation Letters*, 18(4), 646–650.  
+   [IEEE Xplore](https://ieeexplore.ieee.org/document/8644039)
 
+---
 
-+  <b> Einstein : A LIFE IN SCIENCE <b> by <i>Michael White and John Gribbin<i>
+## Technical Skills
 
-[//]: # ![Einstein_Book](Einstein_Book.jpg)
-<img src="Einstein_Book.jpg" width="200">
+**RF / Electromagnetics:** Antennas, RF & microwave engineering, EMI/EMC, signal integrity, power integrity, wireless systems, RF measurements, electromagnetic modeling  
 
-	This shows why Einstein's name props in every discussion related to phyiscs. It takes you through a good journey of his life. Along the way, the scientific details are satifying and instills a sense of appreciation towards intellectual achievements themselves.
+**Quantum / Atomic RF Sensing:** Rydberg atoms, EIT spectroscopy, RF electrometry, AC Stark effects, atom-based field sensing  
 
-+ <b> Michael Faraday and The Royal Institution: The Genius of Man and Place   <b> by <i> John M. Thomas   <i>
+**Simulation & Engineering Software:** Ansys HFSS, Ansys SIwave, CST Microwave Studio, Keysight PathWave SystemVue, AGI/STK, LabVIEW  
 
-[//]: # ![Faraday_Book](Faraday_Ri.jpg)
-<img src="Faraday_Ri.jpg" width="200">
+**Instrumentation:** Vector network analyzers, spectrum analyzers, oscilloscopes, signal generators, LCR meters, semiconductor lasers  
 
-	I read this book on Prof [Andrew Zangwill's recommendation](https://shepherd.com/best-books/biographies-of-physicists).
+**Programming:** Python, MATLAB, Fortran, CUDA Fortran
 
-Its a gem.
+---
 
-+  <b> Longitude <b> by  <i>Dava Sobel<i>
+## Education
 
+- **Ph.D., Electrical Engineering — Quantum Sensing**, University of Colorado Boulder — expected 2026
+- **M.S., Electrical Engineering**, University of Colorado Boulder — 2025
+- **Ph.D., Electrical Engineering — RF & Microwave**, IIT Madras — 2021
+- **M.Tech., Electrical Engineering — Photonics**, IIT Madras — 2021
+- **B.Tech., Electronics & Communication Engineering**, JNTU Hyderabad — 2009
 
-[//]: # ![Longitude_Dava_Sobel](Longitude.jpg)
-<img src="Longitude.jpg" width="200">
+---
 
-     One will understand how many obstacles one should overcome to achieve something in the scientific world. This problem was know to Newton too. But he didn't propose a solution in his lifetime.
+## Beyond Research
 
+I enjoy reading about physics, science, history, philosophy, and literature. I keep a separate reading page with brief notes and reflections.
 
-+  <b> The Monk who sold his Ferrari <b>
+[**Books I’ve Read →**](books/)
 
-[//]: # ![Monk](Monk.jpg)
-<img src="Monk.jpg" width="200">
+---
 
-	I read this book multiple times. Though I am unable to put into practice all of its contents, this book changed my life to some extent.
+## Contact
 
-+  <b>  Dispatches from Planet 3 <b> by  <i>Marcia Bartusiak<i>
+I am interested in opportunities involving **RF and microwave engineering, antennas, wireless systems, electromagnetic simulation, quantum sensing, advanced RF measurements, and research-driven hardware development**.
 
-<img src="Dispatches.jpg" width="200">
-
-+  <b>  Astrophysics for People in a Hurry <b> by <i> Neil De Grass Tyson <i> 
-
-<img src="Astrophysics_for_people_in_Hurry.jpg" width="200">
-
-+ <b> The Body <b> by <i> Bill Bryson <i>
-
-<img src="Bill_Bryson_Body.jpg" width="200">
-
-+ <b> The LAST LECTURE <b> by <i> Randy Pausch with Jeffery Zaslow <i>
-
-<img src="The_Last_Lecture.jpg" width="200">
-
-+ <b> A Planet Called Earth <b> by <i> George Gamow <i> 
-
-<img src="Planet_Earth_Gamow.jpg" width="200">
-
-+ <b> Man's Search For Meaning <b> by  <i> Viktor E. Frankl <i> 
-
-<img src="Frankl_Meaning.jpg" width="200">
-
-
-	Man is ultimately self-determining. Hope, faith and love cannot be ordered or commanded. Responsibleness: the essence of human existence. One may find meaning in suffering. Human being is not one in pursuit of happiness but rather in search of a reason to become happy.
-
-+ <b> Ramayana <b> by <i> C.Rajagopalachari <i>
-
-<img src="Ramayana.jpg" width="200">
-
-Read multiple times. The interpretation by Rajaji makes us reflect on ourselves.
-
-
-
-# Novels Read
-
-+  <b> THE STREET LAWYER <b> by <i>John Grisham<i>
-
-	Depending on your personality, you will have a clear conclusion on what is important to you : Money or Social Service. This book in layers depicts the life of home less people and a lawyer who fights for them in a particular situation. By the end, you should be amazed by the balance John Grisham strikes.
-
-+  <b> THE TESTAMENT <b> by <i>John Grisham<i>
-
-	Money, Money, Money.  You just read it until the end for an unforgettable, sweet and  memorable experience in your life.
-	
-+  <b> The Summons  <b>  by <i>John Grisham<i>
-
-+  <b> The Last Juror  <b>  by <i>John Grisham<i>
-
-+  <b> The Confession  <b>  by <i>John Grisham<i>
-
-+  <b> A Painted House <b>  by <i>John Grisham<i>
-
-
-
+[LinkedIn](https://www.linkedin.com/in/rajavardhan-talashila-rt-37800a76/) · [Email](mailto:trvabc@gmail.com)
