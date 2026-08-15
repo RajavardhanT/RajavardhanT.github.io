@@ -1,0 +1,243 @@
+/* Custom portfolio styling */
+:root {
+  --rt-bg: #f5f7fb;
+  --rt-surface: #ffffff;
+  --rt-text: #18212f;
+  --rt-muted: #5f6b7a;
+  --rt-line: #dfe5ec;
+  --rt-accent: #22577a;
+  --rt-accent-dark: #183d55;
+  --rt-chip: #eaf2f8;
+}
+
+body {
+  background: var(--rt-bg);
+  color: var(--rt-text);
+}
+
+.wrapper {
+  width: min(1120px, 92vw);
+}
+
+section {
+  max-width: none;
+}
+
+a {
+  color: var(--rt-accent);
+}
+
+a:hover {
+  color: var(--rt-accent-dark);
+}
+
+.rt-hero {
+  background: linear-gradient(135deg, #ffffff 0%, #eef5fa 100%);
+  border: 1px solid var(--rt-line);
+  border-radius: 20px;
+  padding: 2.25rem;
+  margin: 1rem 0 2rem;
+  box-shadow: 0 12px 32px rgba(24, 33, 47, 0.07);
+}
+
+.rt-eyebrow {
+  margin: 0 0 0.6rem;
+  color: var(--rt-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.rt-hero h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.05;
+  color: var(--rt-text);
+}
+
+.rt-role {
+  margin: 0.8rem 0 1rem;
+  color: var(--rt-accent-dark);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.rt-lead {
+  max-width: 850px;
+  color: var(--rt-muted);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.rt-actions,
+.rt-tags {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  margin-top: 1.15rem;
+}
+
+.rt-button {
+  display: inline-block;
+  padding: 0.62rem 0.95rem;
+  border-radius: 10px;
+  border: 1px solid var(--rt-accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.rt-button.primary {
+  background: var(--rt-accent);
+  color: #ffffff;
+}
+
+.rt-button.secondary {
+  background: #ffffff;
+}
+
+.rt-tag {
+  background: var(--rt-chip);
+  border: 1px solid #d7e6f1;
+  color: var(--rt-accent-dark);
+  padding: 0.34rem 0.62rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.rt-section {
+  margin: 2.7rem 0;
+}
+
+.rt-section > h2 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid var(--rt-line);
+  color: var(--rt-text);
+}
+
+.rt-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.rt-grid.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.rt-card {
+  background: var(--rt-surface);
+  border: 1px solid var(--rt-line);
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 24px rgba(24, 33, 47, 0.045);
+}
+
+.rt-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  color: var(--rt-text);
+}
+
+.rt-card p,
+.rt-card li {
+  color: var(--rt-muted);
+  line-height: 1.65;
+}
+
+.rt-card ul {
+  margin-bottom: 0;
+}
+
+.rt-meta {
+  color: var(--rt-accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+.rt-project-image {
+  width: 100%;
+  max-height: 330px;
+  object-fit: contain;
+  background: #f9fbfd;
+  border: 1px solid var(--rt-line);
+  border-radius: 12px;
+  padding: 0.4rem;
+  margin-top: 0.85rem;
+}
+
+.rt-highlight {
+  border-left: 4px solid var(--rt-accent);
+  background: #f0f6fa;
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0;
+}
+
+.rt-publication {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rt-line);
+}
+
+.rt-publication:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.rt-skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.rt-skill-block {
+  background: var(--rt-surface);
+  border: 1px solid var(--rt-line);
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.rt-skill-block strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--rt-accent-dark);
+}
+
+.rt-contact {
+  background: var(--rt-accent-dark);
+  color: #ffffff;
+  border-radius: 18px;
+  padding: 1.5rem;
+}
+
+.rt-contact h2,
+.rt-contact p {
+  color: #ffffff;
+}
+
+.rt-contact a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .rt-hero {
+    padding: 1.4rem;
+  }
+
+  .rt-grid,
+  .rt-grid.three,
+  .rt-skills {
+    grid-template-columns: 1fr;
+  }
+
+  .rt-button {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
