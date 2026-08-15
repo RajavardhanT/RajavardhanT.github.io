@@ -106,7 +106,7 @@ I have also created short technical illustrations and write-ups on electromagnet
 - [Clarinet as a Horn Antenna](https://www.linkedin.com/feed/update/urn:li:activity:7073731131421970432)
 - [Slide Screw Tuner — working principle](https://www.linkedin.com/feed/update/urn:li:activity:7072264357472063488)
 - [Resonance Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7069214665616089088)
-- [Dual Junction Circulator](https://www.linkedin.com/feed/update/urn:li:activity:7067981858117952)
+- [Dual Junction Circulator](https://www.linkedin.com/feed/update/urn:li:activity:7067981858117988352)
 - [Microwave Testbench](https://www.linkedin.com/feed/update/urn:li:activity:7059154495213109249)
 - [Direct Reading Frequency Meter](https://www.linkedin.com/feed/update/urn:li:activity:7058814767045476352)
 - [Edge Guided Mode Isolator](https://www.linkedin.com/feed/update/urn:li:activity:7054486575467941888)
