@@ -1,0 +1,27 @@
+name: Install exact resume
+
+on:
+  push:
+    paths:
+      - '.resume-upload/TRIGGER'
+
+permissions:
+  contents: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode exact uploaded resume
+        run: |
+          cat .resume-upload/full.b64 | base64 -d > RT_Resume_CU.pdf
+          test "$(stat -c%s RT_Resume_CU.pdf)" = "127138"
+          test "$(git hash-object RT_Resume_CU.pdf)" = "2877217c4c7ca13036ee8bed77318f714994fbaf"
+      - name: Commit exact resume
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add RT_Resume_CU.pdf
+          git commit -m "Install exact uploaded resume PDF"
+          git push
