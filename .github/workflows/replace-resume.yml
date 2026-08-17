@@ -1,0 +1,29 @@
+name: Replace website resume
+
+on:
+  push:
+    paths:
+      - '.github/workflows/replace-resume.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  replace-resume:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild resume PDF
+        shell: bash
+        run: |
+          cat .resume_tmp/gz00.b64 .resume_tmp/gz01.b64 | base64 -d | gzip -d > RT_Resume_CU.pdf
+          test "$(wc -c < RT_Resume_CU.pdf)" -eq 41356
+          file RT_Resume_CU.pdf | grep -q 'PDF document'
+      - name: Commit updated resume
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add RT_Resume_CU.pdf
+          git commit -m "Replace website resume with May 2026 version"
+          git push
