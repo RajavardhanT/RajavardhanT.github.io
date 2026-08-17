@@ -1,0 +1,1 @@
+Local book covers are stored in this directory.
