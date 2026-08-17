@@ -1,0 +1,1 @@
+Book cover images used by books/index.html are stored in this folder.
