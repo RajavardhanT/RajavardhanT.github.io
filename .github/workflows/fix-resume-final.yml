@@ -1,0 +1,53 @@
+name: Fix resume PDF exactly
+
+on:
+  push:
+    paths:
+      - '.resume-fix/TRIGGER'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore exact uploaded resume
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .resume-fix/part*.b64 | base64 --decode > RT_Resume_CU.pdf
+          test "$(stat -c%s RT_Resume_CU.pdf)" = "127138"
+          echo "c2ef3364b07830a53b63425b9ce9bf9409b55f9bbbf3dc6aa422f11398d4da88  RT_Resume_CU.pdf" | sha256sum -c -
+          test "$(git hash-object RT_Resume_CU.pdf)" = "2877217c4c7ca13036ee8bed77318f714994fbaf"
+          file RT_Resume_CU.pdf | grep -q 'PDF document, version 1.7'
+          tail -c 20 RT_Resume_CU.pdf | grep -q '%%EOF'
+
+      - name: Point website directly to PDF
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text()
+          old = 'href="https://github.com/RajavardhanT/RajavardhanT.github.io/blob/master/RT_Resume_CU.pdf"'
+          s = s.replace(old, 'href="/RT_Resume_CU.pdf"')
+          p.write_text(s)
+          PY
+          test "$(grep -o 'href=\"/RT_Resume_CU.pdf\"' index.html | wc -l)" -ge 2
+          ! grep -q 'github.com/RajavardhanT/RajavardhanT.github.io/blob/master/RT_Resume_CU.pdf' index.html
+
+      - name: Commit final fix and remove temporary files
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .resume-fix
+          rm -f .github/workflows/fix-resume-final.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Fix resume PDF and direct site link"
+          git push
