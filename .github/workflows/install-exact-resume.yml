@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Decode exact uploaded resume
         run: |
-          cat .resume-upload/full.b64 | base64 -d > RT_Resume_CU.pdf
+          cat .resume-upload/part*.b64 | base64 -d > RT_Resume_CU.pdf
           test "$(stat -c%s RT_Resume_CU.pdf)" = "127138"
           test "$(git hash-object RT_Resume_CU.pdf)" = "2877217c4c7ca13036ee8bed77318f714994fbaf"
       - name: Commit exact resume
