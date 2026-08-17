@@ -13,14 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Rebuild exact uploaded PDF
+
+      - name: Restore exact uploaded resume data
         shell: bash
         run: |
           set -euo pipefail
-          cat .resume-upload-v2/part*.b64 | base64 --decode > RT_Resume_CU.pdf
+          git checkout 910d986ab498b9d9f87be200e1522c747327e7e0 -- .resume-upload
+          cat .resume-upload/part*.b64 | base64 --decode > RT_Resume_CU.pdf
           test "$(stat -c%s RT_Resume_CU.pdf)" = "127138"
+          test "$(git hash-object RT_Resume_CU.pdf)" = "2877217c4c7ca13036ee8bed77318f714994fbaf"
           echo "c2ef3364b07830a53b63425b9ce9bf9409b55f9bbbf3dc6aa422f11398d4da88  RT_Resume_CU.pdf" | sha256sum -c -
           file RT_Resume_CU.pdf | grep -q 'PDF document'
+
       - name: Use direct GitHub Pages resume link
         shell: bash
         run: |
@@ -36,11 +40,12 @@ jobs:
               raise SystemExit('Resume link not found in index.html')
           p.write_text(s)
           PY
+
       - name: Commit resume and clean temporary upload files
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf .resume-upload-v2
+          rm -rf .resume-upload .resume-upload-v2
           rm -f .github/workflows/install-exact-resume-v2.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
