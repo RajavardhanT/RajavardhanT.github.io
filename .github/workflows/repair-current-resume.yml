@@ -1,0 +1,72 @@
+name: Repair resume PDF simply
+
+on:
+  push:
+    paths:
+      - '.github/workflows/repair-current-resume.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Repair PDF and verify it opens
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ghostscript qpdf poppler-utils
+
+          # Rebuild the existing resume through Ghostscript so all PDF objects/xrefs are valid.
+          gs -q -dNOPAUSE -dBATCH -dSAFER \
+            -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
+            -dCompressPages=false \
+            -sOutputFile=/tmp/resume-repaired.pdf RT_Resume_CU.pdf
+
+          # Store streams uncompressed and disable object streams for maximum compatibility.
+          qpdf --qdf --object-streams=disable --stream-data=uncompress \
+            /tmp/resume-repaired.pdf RT_Resume_CU.pdf
+
+          qpdf --check RT_Resume_CU.pdf
+          test "$(pdfinfo RT_Resume_CU.pdf | awk '/^Pages:/ {print $2}')" = '1'
+          pdftotext RT_Resume_CU.pdf /tmp/resume.txt
+          grep -qi 'Rajavardhan' /tmp/resume.txt
+          grep -qi 'Talashila' /tmp/resume.txt
+          grep -qi 'NIST' /tmp/resume.txt
+          echo "Verified repaired PDF: $(stat -c%s RT_Resume_CU.pdf) bytes"
+
+      - name: Link directly to the PDF and remove repair clutter
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          s=p.read_text()
+          s=s.replace('href="https://github.com/RajavardhanT/RajavardhanT.github.io/blob/master/RT_Resume_CU.pdf"','href="/RT_Resume_CU.pdf"')
+          p.write_text(s)
+          assert s.count('href="/RT_Resume_CU.pdf"') >= 2
+          assert 'github.com/RajavardhanT/RajavardhanT.github.io/blob/master/RT_Resume_CU.pdf' not in s
+          PY
+          rm -rf .resume-fix .resume-upload .resume-upload-v2 .resume_tmp
+          rm -f _tmp_resume_marker.txt
+          rm -f .github/workflows/fix-resume-final.yml
+          rm -f .github/workflows/recover-resume-history.yml
+          rm -f .github/workflows/recover-resume-history-v2.yml
+          rm -f .github/workflows/repair-current-resume.yml
+          rm -f .github/workflows/install-exact-resume.yml .github/workflows/install-exact-resume-v2.yml .github/workflows/install-exact-resume-v3.yml
+          rm -f .github/workflows/install-resume.yml .github/workflows/replace-resume.yml .github/workflows/finalize-site.yml
+
+      - name: Commit repaired resume
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Repair resume PDF and use direct site link'
+          git push
