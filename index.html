@@ -6,9 +6,28 @@
   <meta name="description" content="Rajavardhan Talashila (RT) — RF and microwave engineer specializing in antennas, electromagnetics, wireless systems, and quantum/Rydberg RF sensing.">
   <title>Rajavardhan Talashila (RT) | RF & Microwave Engineer</title>
   <link rel="stylesheet" href="/assets/css/custom.css">
+  <style>
+    .rt-nav{position:sticky;top:0;z-index:100;background:rgba(243,245,246,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--rt-line);margin:0 calc(50% - 50vw);padding:.7rem max(4vw,calc((100vw - 1120px)/2));display:flex;gap:.9rem;flex-wrap:wrap;align-items:center}
+    .rt-nav a{color:var(--rt-accent-dark);font-weight:700;font-size:.9rem;text-decoration:none}
+    .rt-nav a:hover{color:var(--rt-accent);text-decoration:underline}
+    .rt-profile-label{width:100%;margin:.8rem 0 -.25rem;color:var(--rt-muted);font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+    @media(max-width:760px){.rt-nav{position:static;padding:.7rem 3vw}.rt-nav a{font-size:.84rem}}
+  </style>
 </head>
 <body>
   <main class="wrapper">
+    <nav class="rt-nav" aria-label="Primary navigation">
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#publications">Publications</a>
+      <a href="#patents">Patents</a>
+      <a href="#education">Education</a>
+      <a href="/books/">Books</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
     <section class="rt-hero">
       <p class="rt-eyebrow">RF • Microwave • Quantum Sensing</p>
       <h1>Rajavardhan Talashila <span style="font-weight:500">(RT)</span></h1>
@@ -28,14 +47,12 @@
         <span class="rt-tag">Rydberg RF Sensing</span>
         <span class="rt-tag">RF Measurements</span>
       </div>
+      <p class="rt-profile-label">Professional & Research Profiles</p>
       <div class="rt-actions">
-        <a class="rt-button primary" href="https://www.linkedin.com/in/rajavardhan-talashila-rt-37800a76/">LinkedIn</a>
-        <a class="rt-button secondary" href="https://scholar.google.com/citations?user=ae_hbOwAAAAJ&hl=en">Google Scholar</a>
-        <a class="rt-button secondary" href="https://orcid.org/0000-0003-0810-7526">ORCID</a>
-        <a class="rt-button secondary" href="#experience">Experience</a>
-        <a class="rt-button secondary" href="#projects">Projects</a>
-        <a class="rt-button secondary" href="#publications">Publications</a>
-        <a class="rt-button secondary" href="/books/">Books I’ve Read</a>
+        <a class="rt-button primary" href="/RT_Resume_CU.pdf" target="_blank" rel="noopener">Resume</a>
+        <a class="rt-button secondary" href="https://www.linkedin.com/in/rajavardhan-talashila-rt-37800a76/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="rt-button secondary" href="https://scholar.google.com/citations?user=ae_hbOwAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="rt-button secondary" href="https://orcid.org/0000-0003-0810-7526" target="_blank" rel="noopener">ORCID</a>
       </div>
     </section>
 
@@ -121,7 +138,7 @@
             The workflow included realistic RF component characteristics, installed antenna-array patterns,
             flight dynamics, and time-varying Tx/Rx behavior.
           </p>
-          <img class="rt-project-image" src="DBF.jpg" alt="Digital beamforming system simulation">
+          <img class="rt-project-image" src="DBF.jpg" alt="Digital beamforming system simulation" loading="lazy">
         </article>
 
         <article class="rt-card">
@@ -131,7 +148,7 @@
             Designed, fabricated, and experimentally tested a passive 3.5 GHz bandpass filter for the IIT Madras
             5G Testbed.
           </p>
-          <img class="rt-project-image" src="5G_Filter.jpg" alt="3.5 GHz 5G bandpass filter">
+          <img class="rt-project-image" src="5G_Filter.jpg" alt="3.5 GHz 5G bandpass filter" loading="lazy">
         </article>
 
         <article class="rt-card">
@@ -142,7 +159,7 @@
             and link budgets for a LEO satellite communication system using electromagnetic and STK-based analysis.
           </p>
           <p><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12402">Related publication →</a></p>
-          <img class="rt-project-image" src="IITMSAT1.jpg" alt="IITMSAT satellite communication simulation">
+          <img class="rt-project-image" src="IITMSAT1.jpg" alt="IITMSAT satellite communication simulation" loading="lazy">
         </article>
 
         <article class="rt-card">
@@ -152,7 +169,7 @@
             Developed and studied multipole and spherical-harmonic representations of radiation from wire, patch,
             and horn antennas.
           </p>
-          <img class="rt-project-image" src="SH.jpg" alt="Spherical harmonic representation of electromagnetic radiation">
+          <img class="rt-project-image" src="SH.jpg" alt="Spherical harmonic representation of electromagnetic radiation" loading="lazy">
         </article>
       </div>
     </section>
@@ -160,38 +177,19 @@
     <section class="rt-section" id="skills">
       <h2>Technical Skills</h2>
       <div class="rt-skills">
-        <div class="rt-skill-block">
-          <strong>RF & Electromagnetics</strong>
-          Antennas, RF & microwave engineering, EMI/EMC, signal integrity, power integrity, wireless systems,
-          RF measurements, electromagnetic modeling
-        </div>
-        <div class="rt-skill-block">
-          <strong>Quantum / Atomic RF Sensing</strong>
-          Rydberg atoms, EIT spectroscopy, RF electrometry, AC Stark effects, atom-based field sensing
-        </div>
-        <div class="rt-skill-block">
-          <strong>Simulation & Engineering Software</strong>
-          Ansys HFSS, Ansys SIwave, CST Microwave Studio, Keysight PathWave SystemVue, AGI/STK, LabVIEW
-        </div>
-        <div class="rt-skill-block">
-          <strong>Instrumentation</strong>
-          Vector network analyzers, spectrum analyzers, oscilloscopes, signal generators, LCR meters,
-          semiconductor lasers
-        </div>
-        <div class="rt-skill-block">
-          <strong>Programming</strong>
-          Python, MATLAB, Fortran, CUDA Fortran
-        </div>
-        <div class="rt-skill-block">
-          <strong>Research & Experimental Work</strong>
-          RF/optical laboratory automation, spectroscopy, data acquisition, signal analysis, model-to-measurement validation
-        </div>
+        <div class="rt-skill-block"><strong>RF & Electromagnetics</strong>Antennas, RF & microwave engineering, EMI/EMC, signal integrity, power integrity, wireless systems, RF measurements, electromagnetic modeling</div>
+        <div class="rt-skill-block"><strong>Quantum / Atomic RF Sensing</strong>Rydberg atoms, EIT spectroscopy, RF electrometry, AC Stark effects, atom-based field sensing</div>
+        <div class="rt-skill-block"><strong>Simulation & Engineering Software</strong>Ansys HFSS, Ansys SIwave, CST Microwave Studio, Keysight PathWave SystemVue, AGI/STK, LabVIEW</div>
+        <div class="rt-skill-block"><strong>Instrumentation</strong>Vector network analyzers, spectrum analyzers, oscilloscopes, signal generators, LCR meters, semiconductor lasers</div>
+        <div class="rt-skill-block"><strong>Programming</strong>Python, MATLAB, Fortran, CUDA Fortran</div>
+        <div class="rt-skill-block"><strong>Research & Experimental Work</strong>RF/optical laboratory automation, spectroscopy, data acquisition, signal analysis, model-to-measurement validation</div>
       </div>
     </section>
 
     <section class="rt-section" id="publications">
       <h2>Selected Publications</h2>
       <div class="rt-card">
+        <p class="rt-meta">Full research profiles: <a href="https://scholar.google.com/citations?user=ae_hbOwAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://orcid.org/0000-0003-0810-7526" target="_blank" rel="noopener">ORCID</a></p>
         <div class="rt-publication">
           <strong>Talashila, R.</strong>, Watterson, W. J., Moser, B. L., et al. (2025).
           “Determining Angle of Arrival of Radio-Frequency Fields Using Subwavelength, Amplitude-Only Measurements of Standing Waves in a Rydberg Atom Sensor.”
@@ -216,6 +214,17 @@
           <em>IEEE Antennas and Wireless Propagation Letters</em>, 18(4), 646–650.
           <a href="https://ieeexplore.ieee.org/document/8644039">IEEE Xplore →</a>
         </div>
+      </div>
+    </section>
+
+    <section class="rt-section" id="patents">
+      <h2>Patents & Inventions</h2>
+      <div class="rt-card">
+        <p class="rt-meta">Rydberg RF Sensing • Patent-related work</p>
+        <h3>Subwavelength RF Angle-of-Arrival Sensing</h3>
+        <p>
+          Inventor on patent-related work associated with a novel Rydberg-atom approach for determining RF angle of arrival using subwavelength, amplitude-only measurements. Public patent identifiers and filing details are omitted here until they are available for disclosure.
+        </p>
       </div>
     </section>
 
@@ -269,26 +278,21 @@
     <section class="rt-section">
       <h2>Beyond Research</h2>
       <div class="rt-card">
-        <p>
-          I enjoy reading about physics, science, history, philosophy, and literature. I keep a separate reading page
-          with brief notes and reflections.
-        </p>
+        <p>I enjoy reading about physics, science, history, philosophy, and literature. I keep a separate reading page with brief notes and reflections.</p>
         <a class="rt-button secondary" href="/books/">Explore my reading list →</a>
       </div>
     </section>
 
     <section class="rt-section rt-contact" id="contact">
       <h2>Let’s Connect</h2>
-      <p>
-        I am interested in opportunities involving RF and microwave engineering, antennas, wireless systems,
-        electromagnetic simulation, quantum sensing, advanced RF measurements, and research-driven hardware development.
-      </p>
+      <p>I am interested in opportunities involving RF and microwave engineering, antennas, wireless systems, electromagnetic simulation, quantum sensing, advanced RF measurements, and research-driven hardware development.</p>
       <p>
         <a href="mailto:trvabc@gmail.com">Email</a> ·
-        <a href="https://www.linkedin.com/in/rajavardhan-talashila-rt-37800a76/">LinkedIn</a> ·
-        <a href="https://scholar.google.com/citations?user=ae_hbOwAAAAJ&hl=en">Google Scholar</a> ·
-        <a href="https://orcid.org/0000-0003-0810-7526">ORCID</a> ·
-        <a href="https://www.youtube.com/@trvabc">YouTube</a>
+        <a href="/RT_Resume_CU.pdf" target="_blank" rel="noopener">Resume</a> ·
+        <a href="https://www.linkedin.com/in/rajavardhan-talashila-rt-37800a76/" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="https://scholar.google.com/citations?user=ae_hbOwAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
+        <a href="https://orcid.org/0000-0003-0810-7526" target="_blank" rel="noopener">ORCID</a> ·
+        <a href="https://www.youtube.com/@trvabc" target="_blank" rel="noopener">YouTube</a>
       </p>
     </section>
   </main>
