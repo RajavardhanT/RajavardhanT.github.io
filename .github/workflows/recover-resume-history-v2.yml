@@ -1,0 +1,98 @@
+name: Recover exact resume from git objects
+
+on:
+  push:
+    paths:
+      - '.github/workflows/recover-resume-history-v2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find exact resume bytes in repository history
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXPECTED_SHA='c2ef3364b07830a53b63425b9ce9bf9409b55f9bbbf3dc6aa422f11398d4da88'
+          FOUND=''
+
+          # First look through every historical blob of the exact expected size.
+          while read -r obj rest; do
+            [ -n "${obj:-}" ] || continue
+            [ "$(git cat-file -t "$obj" 2>/dev/null || true)" = 'blob' ] || continue
+            [ "$(git cat-file -s "$obj" 2>/dev/null || echo 0)" = '127138' ] || continue
+            git cat-file blob "$obj" > /tmp/candidate.pdf
+            sha=$(sha256sum /tmp/candidate.pdf | awk '{print $1}')
+            if [ "$sha" = "$EXPECTED_SHA" ]; then
+              cp /tmp/candidate.pdf RT_Resume_CU.pdf
+              FOUND="blob:$obj"
+              break
+            fi
+          done < <(git rev-list --objects --all)
+
+          # Fallback: reconstruct from historical base64 staging directories, ignoring whitespace.
+          if [ -z "$FOUND" ]; then
+            for c in $(git rev-list --all); do
+              for d in .resume-upload .resume-upload-v2; do
+                files=$(git ls-tree -r --name-only "$c" "$d" 2>/dev/null | grep -E '/part[0-9]+\.b64$' | sort -V || true)
+                [ -n "$files" ] || continue
+                : > /tmp/all.b64
+                while IFS= read -r f; do git show "$c:$f" >> /tmp/all.b64; done <<< "$files"
+                tr -cd 'A-Za-z0-9+/=' < /tmp/all.b64 > /tmp/clean.b64
+                if base64 --decode /tmp/clean.b64 > /tmp/candidate.pdf 2>/dev/null; then
+                  sha=$(sha256sum /tmp/candidate.pdf | awk '{print $1}')
+                  size=$(stat -c%s /tmp/candidate.pdf)
+                  if [ "$sha" = "$EXPECTED_SHA" ] && [ "$size" = '127138' ]; then
+                    cp /tmp/candidate.pdf RT_Resume_CU.pdf
+                    FOUND="$c:$d"
+                    break 2
+                  fi
+                fi
+              done
+            done
+          fi
+
+          [ -n "$FOUND" ] || { echo 'Exact resume bytes were not found in git history'; exit 1; }
+          test "$(stat -c%s RT_Resume_CU.pdf)" = '127138'
+          echo "$EXPECTED_SHA  RT_Resume_CU.pdf" | sha256sum -c -
+          test "$(git hash-object RT_Resume_CU.pdf)" = '2877217c4c7ca13036ee8bed77318f714994fbaf'
+          file RT_Resume_CU.pdf | grep -q 'PDF document, version 1.7'
+          echo "Recovered from $FOUND"
+
+      - name: Fix links and remove repair scaffolding
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          s=p.read_text()
+          s=s.replace('href="https://github.com/RajavardhanT/RajavardhanT.github.io/blob/master/RT_Resume_CU.pdf"','href="/RT_Resume_CU.pdf"')
+          p.write_text(s)
+          assert s.count('href="/RT_Resume_CU.pdf"') >= 2
+          assert 'github.com/RajavardhanT/RajavardhanT.github.io/blob/master/RT_Resume_CU.pdf' not in s
+          PY
+          rm -rf .resume-fix .resume-upload .resume-upload-v2 .resume_tmp
+          rm -f _tmp_resume_marker.txt
+          rm -f .github/workflows/fix-resume-final.yml
+          rm -f .github/workflows/recover-resume-history.yml
+          rm -f .github/workflows/recover-resume-history-v2.yml
+          rm -f .github/workflows/install-exact-resume.yml .github/workflows/install-exact-resume-v2.yml .github/workflows/install-exact-resume-v3.yml
+          rm -f .github/workflows/install-resume.yml .github/workflows/replace-resume.yml .github/workflows/finalize-site.yml
+
+      - name: Commit final repair
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Fix resume PDF and direct site link'
+          git push
