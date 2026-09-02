@@ -1,0 +1,44 @@
+name: Add latest PRA paper
+on:
+  push:
+    paths:
+      - '.github/workflows/add-pra-paper.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update profile content
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text()
+          s = s.replace(
+          '            <li>Investigating AC Stark shifts, RF-dressed atomic states, multiphoton coupling, and avoided crossings in Rydberg-EIT spectra using Floquet-based modeling and experimental validation.</li>',
+          '            <li>Investigating RF-dressed Rydberg spectra, including magnetic-sublevel-resolved Autler-Townes structure, arbitrary RF polarization, AC Stark shifts, multiphoton coupling, and avoided crossings through multilevel/Floquet modeling and experiment.</li>'
+          )
+          s = s.replace(
+          '            Conducting experimental research in Rydberg-atom RF sensing, with emphasis on angle-of-arrival estimation, sensor-sensitivity characterization, RF-field measurement, optical spectroscopy, and automated data acquisition.',
+          '            Conducting experimental research in Rydberg-atom RF sensing, including angle-of-arrival estimation, sensor-sensitivity characterization, RF-field measurement, magnetic-sublevel-resolved Autler-Townes spectroscopy, arbitrary RF polarization, and automated RF/optical data acquisition.'
+          )
+          marker = '''        <div class="rt-publication">\n          <strong>Talashila, R.</strong>, Watterson, W. J., Moser, B. L., et al. (2025).'''
+          newpub = '''        <div class="rt-publication">\n          Schlossberger, N., <strong>Talashila, R.</strong>, Oliver, S. B., Prajapati, N., Watterson, W. J., & Holloway, C. L. (2026).\n          “Resolving magnetic-sublevel structure in Rydberg Autler-Townes spectra with arbitrary rf polarization.”\n          <em>Physical Review A</em>, 114, 033701.\n          <a href="https://doi.org/10.1103/w5k9-1mlh">DOI →</a><br>\n          <span><strong>Focus:</strong> multilevel interpretation of polarization-dependent Rydberg Autler-Townes spectra and magnetic-sublevel structure, with implications for RF electrometry and polarimetry.</span>\n        </div>\n'''
+          if 'Resolving magnetic-sublevel structure in Rydberg Autler-Townes spectra with arbitrary rf polarization' not in s:
+              s = s.replace(marker, newpub + marker)
+          p.write_text(s)
+          PY
+      - name: Commit profile update
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html
+          git commit -m 'Add 2026 Physical Review A paper to profile' || true
+          git push
+      - name: Remove temporary workflow
+        run: |
+          git rm .github/workflows/add-pra-paper.yml
+          git commit -m 'Remove temporary profile-update workflow'
+          git push
