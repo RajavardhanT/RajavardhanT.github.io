@@ -1,0 +1,72 @@
+name: Update arXiv research profile
+on:
+  push:
+    paths:
+      - '.github/workflows/update-arxiv-profile.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update profile page
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text()
+
+          old_bullet = '''            <li>Investigating RF-dressed Rydberg spectra, including magnetic-sublevel-resolved Autler-Townes structure, arbitrary RF polarization, AC Stark shifts, multiphoton coupling, and avoided crossings through multilevel/Floquet modeling and experiment.</li>'''
+          new_bullet = '''            <li>Interpreting avoided crossings in AC Stark-shifted Rydberg-EIT spectra through Floquet/Shirley modeling, including RF-dressed states, Floquet replicas, multiphoton coupling pathways, and experimentally observed spectral structure.</li>'''
+          if old_bullet not in s:
+              raise SystemExit('research bullet not found')
+          s = s.replace(old_bullet, new_bullet, 1)
+
+          marker = '''        <article class="rt-card">
+          <p class="rt-meta">Selected Research Output</p>
+          <h3>Subwavelength RF Angle-of-Arrival Sensing</h3>'''
+          new_card = '''        <article class="rt-card">
+          <p class="rt-meta">Latest Preprint • arXiv 2026</p>
+          <h3>Floquet Interpretation of Avoided Crossings</h3>
+          <p>
+            Examines avoided crossings observed in AC Stark-shifted Rydberg-EIT spectra using a Floquet interpretation, connecting experimentally observed spectral structure to RF-dressed states and coupling pathways beyond a simple static Stark-map picture.
+          </p>
+          <div class="rt-highlight">
+            <strong>arXiv:2609.06062</strong><br>
+            <span>Floquet Interpretation of Avoided Crossings in AC Stark-Shifted Rydberg-EIT Spectra.</span><br>
+            <a href="https://arxiv.org/abs/2609.06062" target="_blank" rel="noopener">View preprint →</a>
+          </div>
+        </article>
+        <article class="rt-card">
+          <p class="rt-meta">Selected Research Output</p>
+          <h3>Subwavelength RF Angle-of-Arrival Sensing</h3>'''
+          if marker not in s:
+              raise SystemExit('selected output marker not found')
+          s = s.replace(marker, new_card, 1)
+
+          pub_marker = '''        <div class="rt-publication">
+          Schlossberger, N., <strong>Talashila, R.</strong>, Oliver, S. B., Prajapati, N., Watterson, W. J., & Holloway, C. L. (2026).'''
+          new_pub = '''        <div class="rt-publication">
+          <strong>Talashila, R.</strong> et al. (2026).
+          “Floquet Interpretation of Avoided Crossings in AC Stark-Shifted Rydberg-EIT Spectra.”
+          <em>arXiv preprint</em>, arXiv:2609.06062.
+          <a href="https://arxiv.org/abs/2609.06062" target="_blank" rel="noopener">arXiv →</a><br>
+          <span><strong>Focus:</strong> Floquet interpretation of avoided crossings and RF-dressed spectral structure in AC Stark-shifted Rydberg-EIT.</span>
+        </div>
+        <div class="rt-publication">
+          Schlossberger, N., <strong>Talashila, R.</strong>, Oliver, S. B., Prajapati, N., Watterson, W. J., & Holloway, C. L. (2026).'''
+          if pub_marker not in s:
+              raise SystemExit('publication marker not found')
+          s = s.replace(pub_marker, new_pub, 1)
+
+          p.write_text(s)
+          PY
+      - name: Commit changes
+        run: |
+          rm -f .github/workflows/update-arxiv-profile.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html .github/workflows/update-arxiv-profile.yml
+          git commit -m "Update profile with Floquet avoided-crossings arXiv preprint"
+          git push
