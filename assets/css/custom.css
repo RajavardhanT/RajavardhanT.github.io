@@ -89,6 +89,16 @@ h1, h2, h3 {
   line-height: 1.75;
 }
 
+.rt-profile-links {
+  margin: 0.8rem 0 0;
+  color: var(--rt-muted);
+  font-size: 0.9rem;
+}
+
+.rt-profile-links a {
+  font-weight: 600;
+}
+
 .rt-actions,
 .rt-tags {
   display: flex;
